@@ -1,0 +1,43 @@
+{
+  "num_clusters": 1,
+  "clusters": {
+    "0": [
+      {
+        "id": 0,
+        "text": "The attackers used DNS tunneling to exfiltrate data and evade traditional network security controls."
+      },
+      {
+        "id": 1,
+        "text": "Malicious actors planted USB devices in the parking lot for employees to find and connect to their work computers."
+      },
+      {
+        "id": 2,
+        "text": "The threat group leveraged a zero-day vulnerability in the organization's VPN appliance to gain initial access."
+      },
+      {
+        "id": 3,
+        "text": "Command and control traffic was disguised as normal HTTPS traffic to trusted cloud services."
+      },
+      {
+        "id": 4,
+        "text": "The malware performed fileless execution by running entirely in memory without touching the disk."
+      },
+      {
+        "id": 5,
+        "text": "Administrative credentials were harvested using a keylogger installed through a phishing campaign."
+      },
+      {
+        "id": 6,
+        "text": "The attackers utilized living-off-the-land techniques, leveraging built-in Windows tools like PowerShell and WMI."
+      },
+      {
+        "id": 7,
+        "text": "After compromising the network, the threat actor established persistence through scheduled tasks that survived reboots."
+      },
+      {
+        "id": 8,
+        "text": "The ransomware encrypted files with a hybrid algorithm combining RSA and AES for maximum impact."
+      }
+    ]
+  }
+}

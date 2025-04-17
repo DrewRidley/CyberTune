@@ -1,0 +1,114 @@
+{
+  "texts": [
+    "The attackers used DNS tunneling to exfiltrate data and evade traditional network security controls.",
+    "Malicious actors planted USB devices in the parking lot for employees to find and connect to their work computers.",
+    "The threat group leveraged a zero-day vulnerability in the organization's VPN appliance to gain initial access.",
+    "Command and control traffic was disguised as normal HTTPS traffic to trusted cloud services.",
+    "The malware performed fileless execution by running entirely in memory without touching the disk.",
+    "Administrative credentials were harvested using a keylogger installed through a phishing campaign.",
+    "The attackers utilized living-off-the-land techniques, leveraging built-in Windows tools like PowerShell and WMI.",
+    "After compromising the network, the threat actor established persistence through scheduled tasks that survived reboots.",
+    "The ransomware encrypted files with a hybrid algorithm combining RSA and AES for maximum impact."
+  ],
+  "similarity_matrix": [
+    [
+      1.0,
+      0.7823989391326904,
+      0.7083975672721863,
+      0.8225401043891907,
+      0.6292479038238525,
+      0.6988815069198608,
+      0.7746940851211548,
+      0.6852225065231323,
+      0.764541506767273
+    ],
+    [
+      0.7823989391326904,
+      0.9999999403953552,
+      0.7366942167282104,
+      0.7508344054222107,
+      0.6252022981643677,
+      0.7443533539772034,
+      0.7614312171936035,
+      0.6846625208854675,
+      0.7408997416496277
+    ],
+    [
+      0.7083975672721863,
+      0.7366942167282104,
+      0.9999997615814209,
+      0.6716523170471191,
+      0.5986178517341614,
+      0.6925689578056335,
+      0.6778132319450378,
+      0.6999460458755493,
+      0.6959115266799927
+    ],
+    [
+      0.8225401043891907,
+      0.7508344054222107,
+      0.6716523170471191,
+      1.0,
+      0.66311115026474,
+      0.7288708090782166,
+      0.7406567335128784,
+      0.7169806361198425,
+      0.7373508810997009
+    ],
+    [
+      0.6292479038238525,
+      0.6252022981643677,
+      0.5986178517341614,
+      0.66311115026474,
+      0.9999999403953552,
+      0.5568544268608093,
+      0.6403741240501404,
+      0.7278016805648804,
+      0.6442038416862488
+    ],
+    [
+      0.6988815069198608,
+      0.7443533539772034,
+      0.6925689578056335,
+      0.7288708090782166,
+      0.5568544268608093,
+      1.0000001192092896,
+      0.7113282680511475,
+      0.6795642971992493,
+      0.6878299713134766
+    ],
+    [
+      0.7746940851211548,
+      0.7614312171936035,
+      0.6778132319450378,
+      0.7406567335128784,
+      0.6403741240501404,
+      0.7113282680511475,
+      1.0,
+      0.7669342756271362,
+      0.7605252861976624
+    ],
+    [
+      0.6852225065231323,
+      0.6846625208854675,
+      0.6999460458755493,
+      0.7169806361198425,
+      0.7278016805648804,
+      0.6795642971992493,
+      0.7669342756271362,
+      1.0,
+      0.7201263904571533
+    ],
+    [
+      0.764541506767273,
+      0.7408997416496277,
+      0.6959115266799927,
+      0.7373508810997009,
+      0.6442038416862488,
+      0.6878299713134766,
+      0.7605252861976624,
+      0.7201263904571533,
+      1.0000001192092896
+    ]
+  ]
+}

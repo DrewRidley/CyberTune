@@ -1,0 +1,18 @@
+===== Performance Comparison =====
+Test samples: 465
+
+Baseline Model Performance:
+Accuracy: 0.4774
+Precision: 0.8305
+Recall: 0.1738
+F1 Score: 0.2874
+
+Fine-tuned Model Performance:
+Accuracy: 0.6387
+Precision: 0.6267
+Recall: 1.0000
+F1 Score: 0.7705
+
+Improvement:
+Accuracy: 16.13% absolute
+F1 Score: 48.31% absolute

@@ -1,0 +1,32 @@
+Data destruction through secure deletion techniques
+The malware performs data destruction through secure deletion techniques as part of the attack chain
+Investigation revealed data destruction through secure deletion techniques
+The malware performs data destruction through secure deletion techniques
+Denial of service attacks against critical infrastructure
+Investigation revealed denial of service attacks against critical infrastructure similar to known APT behaviors
+The malware performs denial of service attacks against critical infrastructure
+Investigation revealed denial of service attacks against critical infrastructure
+Disk wipe attacks targeting master boot records
+The threat actor engaged in disk wipe attacks targeting master boot records
+Investigation revealed disk wipe attacks targeting master boot records as part of the attack chain
+The threat actor engaged in disk wipe attacks targeting master boot records according to incident responders
+Data encryption for ransom using sophisticated ransomware
+Investigation revealed data encryption for ransom using sophisticated ransomware during the compromise
+The malware performs data encryption for ransom using sophisticated ransomware
+Evidence suggests data encryption for ransom using sophisticated ransomware indicating sophisticated actors
+Defacement of websites to demonstrate compromise
+Security logs showed defacement of websites to demonstrate compromise during the compromise
+The malware performs defacement of websites to demonstrate compromise to achieve their objectives
+Analysts observed defacement of websites to demonstrate compromise
+Resource hijacking for cryptocurrency mining
+Evidence suggests resource hijacking for cryptocurrency mining
+Investigation revealed resource hijacking for cryptocurrency mining indicating sophisticated actors
+Forensic analysis identified resource hijacking for cryptocurrency mining
+Manipulation of network traffic to disrupt operations
+The threat actor engaged in manipulation of network traffic to disrupt operations
+The attack involved manipulation of network traffic to disrupt operations
+The threat actor engaged in manipulation of network traffic to disrupt operations which was previously unreported
+Firmware corruption to render systems inoperable
+Analysts observed firmware corruption to render systems inoperable
+The threat actor engaged in firmware corruption to render systems inoperable bypassing standard security measures
+Security logs showed firmware corruption to render systems inoperable

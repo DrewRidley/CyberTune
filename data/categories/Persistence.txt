@@ -1,0 +1,32 @@
+Registry run keys modification for automatic execution at startup
+The attack involved registry run keys modification for automatic execution at startup indicating sophisticated actors
+Forensic analysis identified registry run keys modification for automatic execution at startup
+Analysts observed registry run keys modification for automatic execution at startup indicating sophisticated actors
+Creation of new services configured to execute at system boot
+Investigation revealed creation of new services configured to execute at system boot according to incident responders
+Investigation revealed creation of new services configured to execute at system boot
+Evidence suggests creation of new services configured to execute at system boot
+Scheduled tasks added to maintain access after system reboots
+Investigation revealed scheduled tasks added to maintain access after system reboots during the compromise
+Forensic analysis identified scheduled tasks added to maintain access after system reboots
+Forensic analysis identified scheduled tasks added to maintain access after system reboots
+Modification of startup folder with malicious executables
+The threat actor engaged in modification of startup folder with malicious executables
+The malware performs modification of startup folder with malicious executables during the compromise
+Evidence suggests modification of startup folder with malicious executables
+Account manipulation by adding privileges to compromised accounts
+Analysts observed account manipulation by adding privileges to compromised accounts which was previously unreported
+Investigation revealed account manipulation by adding privileges to compromised accounts
+Investigation revealed account manipulation by adding privileges to compromised accounts
+BITS jobs created to maintain persistence and evade detection
+Security logs showed bits jobs created to maintain persistence and evade detection similar to known APT behaviors
+Investigation revealed bits jobs created to maintain persistence and evade detection
+The threat actor engaged in bits jobs created to maintain persistence and evade detection
+Bootkit installation to survive operating system reinstallation
+Forensic analysis identified bootkit installation to survive operating system reinstallation
+Evidence suggests bootkit installation to survive operating system reinstallation bypassing standard security measures
+The threat actor engaged in bootkit installation to survive operating system reinstallation to achieve their objectives
+Browser extensions added to maintain access through web browsers
+Analysts observed browser extensions added to maintain access through web browsers which was previously unreported
+The malware performs browser extensions added to maintain access through web browsers
+The threat actor engaged in browser extensions added to maintain access through web browsers indicating sophisticated actors

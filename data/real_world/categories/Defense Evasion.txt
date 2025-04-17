@@ -1,0 +1,10 @@
+APT29 used steganography to hide malicious code within legitimate PNG image files to evade detection.
+The threat actor disabled Windows Defender by modifying registry keys, preventing detection of their malware.
+Lazarus Group operators implemented timestomping to change file timestamps and avoid forensic detection.
+APT41 used living-off-the-land binaries (LOLBins) like certutil.exe to download payloads and evade detection.
+The attackers employed binary padding techniques to modify hash values and evade signature-based detection.
+NOBELIUM used obfuscated JavaScript and PowerShell to hide malicious code from security analysis tools.
+The threat actor leveraged signed binaries to proxy execution of malicious payloads, bypassing application whitelisting.
+FIN7 implemented fileless malware that operated entirely in memory to avoid leaving traces on disk.
+The adversary deleted Windows Event Logs to cover their tracks after successful exploitation.
+Kimsuky APT group used legitimate cloud services for command and control, blending in with normal network traffic.

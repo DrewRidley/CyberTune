@@ -1,0 +1,10 @@
+APT29 used Active Directory enumeration tools to map out the network structure and identify high-value targets.
+The threat actors executed PowerShell scripts to discover running processes, installed applications, and system services.
+BlackCat ransomware operators conducted extensive network scanning to identify vulnerable systems and critical data stores.
+APT41 enumerated Active Directory to identify domain administrators and service accounts for lateral movement.
+The adversary queried the Windows registry to discover installed security software and potential bypass methods.
+FIN7 operators used built-in Windows commands to discover network shares containing financial documents.
+Threat actors performed DNS zone transfers to map internal network resources and identify additional targets.
+APT32 utilized PowerShell to enumerate cloud service configuration settings and security policies.
+The attackers examined browser history and bookmarks to identify frequently accessed internal applications.
+LAPSUS$ threat actors mapped out the victim's CI/CD pipeline to identify access points to source code repositories.

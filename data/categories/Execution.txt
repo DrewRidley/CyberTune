@@ -1,0 +1,32 @@
+PowerShell scripts executed to run malicious commands
+Security logs showed powershell scripts executed to run malicious commands
+The attack involved powershell scripts executed to run malicious commands
+Investigation revealed powershell scripts executed to run malicious commands to achieve their objectives
+Command-line interface usage to run unauthorized commands
+Forensic analysis identified command-line interface usage to run unauthorized commands
+Investigation revealed command-line interface usage to run unauthorized commands
+Investigation revealed command-line interface usage to run unauthorized commands
+Scheduled task creation to maintain persistence
+Evidence suggests scheduled task creation to maintain persistence during the compromise
+Security logs showed scheduled task creation to maintain persistence
+The threat actor engaged in scheduled task creation to maintain persistence
+Windows Management Instrumentation (WMI) for remote code execution
+Analysts observed windows management instrumentation (wmi) for remote code execution bypassing standard security measures
+The attack involved windows management instrumentation (wmi) for remote code execution
+The attack involved windows management instrumentation (wmi) for remote code execution
+Dynamic data exchange protocol exploitation in Office documents
+The attack involved dynamic data exchange protocol exploitation in office documents
+Analysts observed dynamic data exchange protocol exploitation in office documents
+Security logs showed dynamic data exchange protocol exploitation in office documents
+Execution via API calls to evade detection mechanisms
+The attack involved execution via api calls to evade detection mechanisms
+Forensic analysis identified execution via api calls to evade detection mechanisms
+Investigation revealed execution via api calls to evade detection mechanisms indicating sophisticated actors
+Use of signed binary proxy execution through legitimate tools
+Security logs showed use of signed binary proxy execution through legitimate tools
+Analysts observed use of signed binary proxy execution through legitimate tools
+The malware performs use of signed binary proxy execution through legitimate tools to achieve their objectives
+Execution through module load to bypass application controls
+The malware performs execution through module load to bypass application controls indicating sophisticated actors
+The malware performs execution through module load to bypass application controls bypassing standard security measures
+The attack involved execution through module load to bypass application controls which was previously unreported

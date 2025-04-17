@@ -1,0 +1,10 @@
+APT29 used legitimate remote access tools like RDP and VNC to move laterally through the compromised environment.
+The threat actor exploited the ZeroLogon vulnerability to move laterally through the domain and compromise additional systems.
+Conti ransomware operators used SMB to spread malware to other systems across the network.
+The attackers used pass-the-hash techniques with stolen NTLM hashes to authenticate to remote systems.
+HAFNIUM threat actors exploited trust relationships between servers to move laterally to additional Exchange servers.
+The adversary used SSH to connect to remote Linux systems after obtaining valid credentials.
+FIN7 group leveraged WMI and PowerShell remoting to execute commands on remote systems for lateral movement.
+Threat actors exploited Kerberos delegation to move between systems while maintaining privileged access.
+The attackers used internal spear-phishing emails sent from compromised accounts to infect additional users.
+APT41 utilized legitimate systems management software to deploy malware across the network.

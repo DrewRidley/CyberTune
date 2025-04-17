@@ -1,0 +1,9 @@
+The attackers used DNS tunneling to exfiltrate data and evade traditional network security controls.
+Malicious actors planted USB devices in the parking lot for employees to find and connect to their work computers.
+The threat group leveraged a zero-day vulnerability in the organization's VPN appliance to gain initial access.
+Command and control traffic was disguised as normal HTTPS traffic to trusted cloud services.
+The malware performed fileless execution by running entirely in memory without touching the disk.
+Administrative credentials were harvested using a keylogger installed through a phishing campaign.
+The attackers utilized living-off-the-land techniques, leveraging built-in Windows tools like PowerShell and WMI.
+After compromising the network, the threat actor established persistence through scheduled tasks that survived reboots.
+The ransomware encrypted files with a hybrid algorithm combining RSA and AES for maximum impact. 

@@ -1,0 +1,20 @@
+The adversary used living-off-the-land binaries to evade detection while maintaining persistence on compromised systems.
+The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptocurrency.
+APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators.
+The attackers used stolen credentials to access the VPN and move laterally through the network.
+Adversaries created backdoored software updates to compromise the software supply chain.
+The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional security controls.
+Threat actors launched distributed denial-of-service attacks against the organization's public-facing websites.
+The attackers exploited a zero-day vulnerability in the web application to gain initial access.
+Cobalt Strike beacons were used for command and control after the initial compromise.
+The threat actor used social engineering tactics to convince employees to install malicious browser extensions.
+APT groups maintained persistence by creating scheduled tasks that execute malware at system startup.
+The attackers disabled security tools by modifying registry keys before deploying their payloads.
+Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement.
+The threat actors performed credential dumping using Mimikatz to extract passwords from memory.
+Adversaries used RDP for lateral movement after compromising administrator credentials.
+The malware encrypted files and displayed a ransom note demanding payment for decryption keys.
+Attackers exploited misconfigured cloud storage buckets to access sensitive data.
+The threat actor used spear-phishing emails with malicious attachments targeting executives.
+Adversaries deployed web shells on compromised web servers to maintain persistent access.
+The attackers created rogue admin accounts to maintain access even after remediation efforts. 

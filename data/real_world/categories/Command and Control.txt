@@ -1,0 +1,10 @@
+APT29 used HTTPS with custom encryption to communicate with command and control servers, blending with normal traffic.
+The threat actors implemented DNS tunneling to exfiltrate data and receive commands without raising alerts.
+Lazarus Group used compromised WordPress sites as proxies for their command and control infrastructure.
+The attackers utilized legitimate cloud services like GitHub and Dropbox for command and control communications.
+NOBELIUM implemented a multi-layer command and control infrastructure with several fallback mechanisms.
+The threat actor encrypted command and control traffic using a custom algorithm to evade network monitoring.
+APT41 used steganography to hide command and control instructions within image files posted to social media.
+The adversary implemented domain fronting techniques to disguise malicious traffic as legitimate web services.
+FIN7 used multiple encrypted messaging channels for different phases of their operation.
+The attackers utilized scheduled polling intervals with jitter to avoid detection of regular communication patterns.

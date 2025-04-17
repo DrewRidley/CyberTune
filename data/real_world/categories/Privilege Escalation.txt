@@ -1,0 +1,10 @@
+The FIN7 group used Kerberoasting attacks to extract and crack service account credentials with high privileges.
+APT32 exploited a time-of-check to time-of-use vulnerability in a Windows service to escalate privileges.
+The attackers performed UAC bypass using the Fodhelper technique to execute code with elevated privileges.
+Threat actors exploited the CVE-2020-1472 vulnerability (Zerologon) to obtain domain admin privileges.
+The adversary leveraged DLL search order hijacking to execute malicious code with elevated privileges.
+Sandworm exploited a buffer overflow vulnerability in a third-party driver to gain SYSTEM privileges on compromised hosts.
+The threat actor used a Windows named pipe impersonation technique to steal authentication tokens from privileged accounts.
+APT41 exploited a local privilege escalation vulnerability in the Windows Print Spooler service (PrintNightmare).
+Attackers used the Juicy Potato exploit to elevate privileges on Windows systems by abusing impersonation privileges.
+The CARBON SPIDER group used token manipulation to duplicate access tokens of high-privilege processes.

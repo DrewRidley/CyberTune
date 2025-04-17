@@ -1,0 +1,10 @@
+Sandworm used PowerShell Empire for command and control after exploiting the initial vulnerability.
+APT28 leveraged Windows Management Instrumentation (WMI) to execute malicious code remotely across the network.
+The attackers used DLL side-loading techniques to execute malicious code through legitimate Windows processes.
+BlackCat ransomware operators used Group Policy to deploy and execute their payloads across the network.
+The threat actor used scheduled tasks to execute malware during system startup, ensuring persistence.
+Cozy Bear (APT29) used the Microsoft Build Engine (MSBuild) to execute malicious code, bypassing application control.
+APT41 executed encoded PowerShell commands to download additional payloads while evading detection systems.
+The attackers exploited Windows COM Hijacking to execute malicious DLLs when legitimate applications were launched.
+Threat actors executed malicious macros embedded in Excel spreadsheets that were opened by finance personnel.
+The SideWinder APT group used JavaScript to execute a series of payloads that ultimately led to a backdoor.

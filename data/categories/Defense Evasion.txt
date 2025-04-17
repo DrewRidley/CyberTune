@@ -1,0 +1,32 @@
+Indicator removal through log clearing and file deletion
+The attack involved indicator removal through log clearing and file deletion as part of the attack chain
+The malware performs indicator removal through log clearing and file deletion
+Investigation revealed indicator removal through log clearing and file deletion
+Timestomping of files to hide modification times
+Evidence suggests timestomping of files to hide modification times which was previously unreported
+Investigation revealed timestomping of files to hide modification times to achieve their objectives
+The attack involved timestomping of files to hide modification times
+Binary padding to avoid hash-based detection mechanisms
+Forensic analysis identified binary padding to avoid hash-based detection mechanisms
+The malware performs binary padding to avoid hash-based detection mechanisms
+Security logs showed binary padding to avoid hash-based detection mechanisms
+Code signing certificates used to sign malicious executables
+The malware performs code signing certificates used to sign malicious executables
+The threat actor engaged in code signing certificates used to sign malicious executables
+The threat actor engaged in code signing certificates used to sign malicious executables
+Disabling security tools through registry modifications
+Security logs showed disabling security tools through registry modifications
+Evidence suggests disabling security tools through registry modifications
+Analysts observed disabling security tools through registry modifications according to incident responders
+Exploitation of rootkits to hide implants and backdoors
+The threat actor engaged in exploitation of rootkits to hide implants and backdoors
+Investigation revealed exploitation of rootkits to hide implants and backdoors bypassing standard security measures
+Investigation revealed exploitation of rootkits to hide implants and backdoors
+Use of alternate data streams to hide data in NTFS file systems
+The threat actor engaged in use of alternate data streams to hide data in ntfs file systems
+Evidence suggests use of alternate data streams to hide data in ntfs file systems
+Forensic analysis identified use of alternate data streams to hide data in ntfs file systems
+Port knocking techniques to hide open ports from scans
+Investigation revealed port knocking techniques to hide open ports from scans as part of the attack chain
+Investigation revealed port knocking techniques to hide open ports from scans
+Security logs showed port knocking techniques to hide open ports from scans indicating sophisticated actors

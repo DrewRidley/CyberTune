@@ -1,0 +1,1332 @@
+===== Real-world Example Similarity Comparison =====
+
+Example Pair 1:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Baseline Model Similarity: 0.3480
+Fine-tuned Model Similarity: 0.7056
+Difference: 0.3576
+
+Example Pair 2:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Baseline Model Similarity: 0.2831
+Fine-tuned Model Similarity: 0.5997
+Difference: 0.3166
+
+Example Pair 3:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Baseline Model Similarity: 0.3284
+Fine-tuned Model Similarity: 0.6814
+Difference: 0.3531
+
+Example Pair 4:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: Adversaries created backdoored software updates to compromise the software supply chain....
+Baseline Model Similarity: 0.4453
+Fine-tuned Model Similarity: 0.8001
+Difference: 0.3548
+
+Example Pair 5:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Baseline Model Similarity: 0.4742
+Fine-tuned Model Similarity: 0.8300
+Difference: 0.3558
+
+Example Pair 6:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Baseline Model Similarity: 0.2698
+Fine-tuned Model Similarity: 0.7070
+Difference: 0.4372
+
+Example Pair 7:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Baseline Model Similarity: 0.3699
+Fine-tuned Model Similarity: 0.6937
+Difference: 0.3238
+
+Example Pair 8:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: Cobalt Strike beacons were used for command and control after the initial compromise....
+Baseline Model Similarity: 0.3595
+Fine-tuned Model Similarity: 0.7627
+Difference: 0.4032
+
+Example Pair 9:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Baseline Model Similarity: 0.2723
+Fine-tuned Model Similarity: 0.7374
+Difference: 0.4651
+
+Example Pair 10:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Baseline Model Similarity: 0.3988
+Fine-tuned Model Similarity: 0.7594
+Difference: 0.3606
+
+Example Pair 11:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Baseline Model Similarity: 0.3741
+Fine-tuned Model Similarity: 0.8275
+Difference: 0.4534
+
+Example Pair 12:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Baseline Model Similarity: 0.3951
+Fine-tuned Model Similarity: 0.8028
+Difference: 0.4077
+
+Example Pair 13:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Baseline Model Similarity: 0.3559
+Fine-tuned Model Similarity: 0.5788
+Difference: 0.2229
+
+Example Pair 14:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Baseline Model Similarity: 0.3439
+Fine-tuned Model Similarity: 0.7598
+Difference: 0.4160
+
+Example Pair 15:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.3409
+Fine-tuned Model Similarity: 0.6947
+Difference: 0.3537
+
+Example Pair 16:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.3086
+Fine-tuned Model Similarity: 0.6889
+Difference: 0.3803
+
+Example Pair 17:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.3139
+Fine-tuned Model Similarity: 0.7130
+Difference: 0.3991
+
+Example Pair 18:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.5746
+Fine-tuned Model Similarity: 0.8367
+Difference: 0.2621
+
+Example Pair 19:
+Text 1: The adversary used living-off-the-land binaries to evade detection while maintaining persistence on ...
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.3593
+Fine-tuned Model Similarity: 0.7991
+Difference: 0.4398
+
+Example Pair 20:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Baseline Model Similarity: 0.3681
+Fine-tuned Model Similarity: 0.7329
+Difference: 0.3648
+
+Example Pair 21:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Baseline Model Similarity: 0.2965
+Fine-tuned Model Similarity: 0.6543
+Difference: 0.3578
+
+Example Pair 22:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: Adversaries created backdoored software updates to compromise the software supply chain....
+Baseline Model Similarity: 0.4599
+Fine-tuned Model Similarity: 0.8493
+Difference: 0.3893
+
+Example Pair 23:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Baseline Model Similarity: 0.4361
+Fine-tuned Model Similarity: 0.7569
+Difference: 0.3208
+
+Example Pair 24:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Baseline Model Similarity: 0.3363
+Fine-tuned Model Similarity: 0.8096
+Difference: 0.4733
+
+Example Pair 25:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Baseline Model Similarity: 0.3383
+Fine-tuned Model Similarity: 0.7167
+Difference: 0.3784
+
+Example Pair 26:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: Cobalt Strike beacons were used for command and control after the initial compromise....
+Baseline Model Similarity: 0.2133
+Fine-tuned Model Similarity: 0.6634
+Difference: 0.4501
+
+Example Pair 27:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Baseline Model Similarity: 0.3540
+Fine-tuned Model Similarity: 0.7954
+Difference: 0.4413
+
+Example Pair 28:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Baseline Model Similarity: 0.3133
+Fine-tuned Model Similarity: 0.7694
+Difference: 0.4561
+
+Example Pair 29:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Baseline Model Similarity: 0.3539
+Fine-tuned Model Similarity: 0.7392
+Difference: 0.3853
+
+Example Pair 30:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Baseline Model Similarity: 0.3775
+Fine-tuned Model Similarity: 0.7153
+Difference: 0.3378
+
+Example Pair 31:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Baseline Model Similarity: 0.4389
+Fine-tuned Model Similarity: 0.6792
+Difference: 0.2404
+
+Example Pair 32:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Baseline Model Similarity: 0.2880
+Fine-tuned Model Similarity: 0.7498
+Difference: 0.4619
+
+Example Pair 33:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.7167
+Fine-tuned Model Similarity: 0.9095
+Difference: 0.1928
+
+Example Pair 34:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.4316
+Fine-tuned Model Similarity: 0.7984
+Difference: 0.3669
+
+Example Pair 35:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.4628
+Fine-tuned Model Similarity: 0.8146
+Difference: 0.3518
+
+Example Pair 36:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.3345
+Fine-tuned Model Similarity: 0.7492
+Difference: 0.4147
+
+Example Pair 37:
+Text 1: The threat actor deployed ransomware that encrypts files with AES-256 and demands payment in cryptoc...
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.2861
+Fine-tuned Model Similarity: 0.7144
+Difference: 0.4283
+
+Example Pair 38:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Baseline Model Similarity: 0.4228
+Fine-tuned Model Similarity: 0.7271
+Difference: 0.3043
+
+Example Pair 39:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: Adversaries created backdoored software updates to compromise the software supply chain....
+Baseline Model Similarity: 0.5932
+Fine-tuned Model Similarity: 0.7801
+Difference: 0.1869
+
+Example Pair 40:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Baseline Model Similarity: 0.4438
+Fine-tuned Model Similarity: 0.6898
+Difference: 0.2460
+
+Example Pair 41:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Baseline Model Similarity: 0.3064
+Fine-tuned Model Similarity: 0.6852
+Difference: 0.3788
+
+Example Pair 42:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Baseline Model Similarity: 0.4422
+Fine-tuned Model Similarity: 0.7175
+Difference: 0.2752
+
+Example Pair 43:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: Cobalt Strike beacons were used for command and control after the initial compromise....
+Baseline Model Similarity: 0.2787
+Fine-tuned Model Similarity: 0.6105
+Difference: 0.3318
+
+Example Pair 44:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Baseline Model Similarity: 0.4451
+Fine-tuned Model Similarity: 0.7873
+Difference: 0.3422
+
+Example Pair 45:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Baseline Model Similarity: 0.5749
+Fine-tuned Model Similarity: 0.7525
+Difference: 0.1776
+
+Example Pair 46:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Baseline Model Similarity: 0.5441
+Fine-tuned Model Similarity: 0.7248
+Difference: 0.1808
+
+Example Pair 47:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Baseline Model Similarity: 0.5610
+Fine-tuned Model Similarity: 0.7232
+Difference: 0.1622
+
+Example Pair 48:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Baseline Model Similarity: 0.6147
+Fine-tuned Model Similarity: 0.8554
+Difference: 0.2407
+
+Example Pair 49:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Baseline Model Similarity: 0.6214
+Fine-tuned Model Similarity: 0.7933
+Difference: 0.1719
+
+Example Pair 50:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.3910
+Fine-tuned Model Similarity: 0.7112
+Difference: 0.3202
+
+Example Pair 51:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.4106
+Fine-tuned Model Similarity: 0.8012
+Difference: 0.3906
+
+Example Pair 52:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.4329
+Fine-tuned Model Similarity: 0.7689
+Difference: 0.3360
+
+Example Pair 53:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.4321
+Fine-tuned Model Similarity: 0.7394
+Difference: 0.3073
+
+Example Pair 54:
+Text 1: APT32 stole credentials by deploying keyloggers on workstations belonging to system administrators....
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.5451
+Fine-tuned Model Similarity: 0.7715
+Difference: 0.2264
+
+Example Pair 55:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: Adversaries created backdoored software updates to compromise the software supply chain....
+Baseline Model Similarity: 0.3745
+Fine-tuned Model Similarity: 0.7419
+Difference: 0.3674
+
+Example Pair 56:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Baseline Model Similarity: 0.5576
+Fine-tuned Model Similarity: 0.7826
+Difference: 0.2250
+
+Example Pair 57:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Baseline Model Similarity: 0.4395
+Fine-tuned Model Similarity: 0.6489
+Difference: 0.2094
+
+Example Pair 58:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Baseline Model Similarity: 0.5066
+Fine-tuned Model Similarity: 0.7518
+Difference: 0.2452
+
+Example Pair 59:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: Cobalt Strike beacons were used for command and control after the initial compromise....
+Baseline Model Similarity: 0.2398
+Fine-tuned Model Similarity: 0.7054
+Difference: 0.4656
+
+Example Pair 60:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Baseline Model Similarity: 0.2921
+Fine-tuned Model Similarity: 0.6808
+Difference: 0.3887
+
+Example Pair 61:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Baseline Model Similarity: 0.2082
+Fine-tuned Model Similarity: 0.5947
+Difference: 0.3865
+
+Example Pair 62:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Baseline Model Similarity: 0.4091
+Fine-tuned Model Similarity: 0.6700
+Difference: 0.2608
+
+Example Pair 63:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Baseline Model Similarity: 0.4072
+Fine-tuned Model Similarity: 0.7791
+Difference: 0.3719
+
+Example Pair 64:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Baseline Model Similarity: 0.5052
+Fine-tuned Model Similarity: 0.6912
+Difference: 0.1861
+
+Example Pair 65:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Baseline Model Similarity: 0.5929
+Fine-tuned Model Similarity: 0.8901
+Difference: 0.2972
+
+Example Pair 66:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.3272
+Fine-tuned Model Similarity: 0.6637
+Difference: 0.3365
+
+Example Pair 67:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.4326
+Fine-tuned Model Similarity: 0.7390
+Difference: 0.3063
+
+Example Pair 68:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.4509
+Fine-tuned Model Similarity: 0.7655
+Difference: 0.3146
+
+Example Pair 69:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.3792
+Fine-tuned Model Similarity: 0.7476
+Difference: 0.3685
+
+Example Pair 70:
+Text 1: The attackers used stolen credentials to access the VPN and move laterally through the network....
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.5963
+Fine-tuned Model Similarity: 0.7466
+Difference: 0.1503
+
+Example Pair 71:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Baseline Model Similarity: 0.4636
+Fine-tuned Model Similarity: 0.8043
+Difference: 0.3407
+
+Example Pair 72:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Baseline Model Similarity: 0.4006
+Fine-tuned Model Similarity: 0.8369
+Difference: 0.4363
+
+Example Pair 73:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Baseline Model Similarity: 0.4494
+Fine-tuned Model Similarity: 0.7709
+Difference: 0.3215
+
+Example Pair 74:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: Cobalt Strike beacons were used for command and control after the initial compromise....
+Baseline Model Similarity: 0.2437
+Fine-tuned Model Similarity: 0.7209
+Difference: 0.4772
+
+Example Pair 75:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Baseline Model Similarity: 0.4337
+Fine-tuned Model Similarity: 0.8678
+Difference: 0.4341
+
+Example Pair 76:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Baseline Model Similarity: 0.4745
+Fine-tuned Model Similarity: 0.8337
+Difference: 0.3592
+
+Example Pair 77:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Baseline Model Similarity: 0.4665
+Fine-tuned Model Similarity: 0.8407
+Difference: 0.3742
+
+Example Pair 78:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Baseline Model Similarity: 0.5103
+Fine-tuned Model Similarity: 0.8265
+Difference: 0.3162
+
+Example Pair 79:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Baseline Model Similarity: 0.4578
+Fine-tuned Model Similarity: 0.7084
+Difference: 0.2506
+
+Example Pair 80:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Baseline Model Similarity: 0.4900
+Fine-tuned Model Similarity: 0.8457
+Difference: 0.3557
+
+Example Pair 81:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.3883
+Fine-tuned Model Similarity: 0.8084
+Difference: 0.4200
+
+Example Pair 82:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.4674
+Fine-tuned Model Similarity: 0.8373
+Difference: 0.3698
+
+Example Pair 83:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.4230
+Fine-tuned Model Similarity: 0.8636
+Difference: 0.4406
+
+Example Pair 84:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.4865
+Fine-tuned Model Similarity: 0.8425
+Difference: 0.3560
+
+Example Pair 85:
+Text 1: Adversaries created backdoored software updates to compromise the software supply chain....
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.4439
+Fine-tuned Model Similarity: 0.8175
+Difference: 0.3737
+
+Example Pair 86:
+Text 1: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Text 2: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Baseline Model Similarity: 0.4372
+Fine-tuned Model Similarity: 0.7349
+Difference: 0.2977
+
+Example Pair 87:
+Text 1: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Text 2: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Baseline Model Similarity: 0.4992
+Fine-tuned Model Similarity: 0.7256
+Difference: 0.2264
+
+Example Pair 88:
+Text 1: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Text 2: Cobalt Strike beacons were used for command and control after the initial compromise....
+Baseline Model Similarity: 0.2484
+Fine-tuned Model Similarity: 0.7649
+Difference: 0.5164
+
+Example Pair 89:
+Text 1: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Text 2: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Baseline Model Similarity: 0.4338
+Fine-tuned Model Similarity: 0.7345
+Difference: 0.3007
+
+Example Pair 90:
+Text 1: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Text 2: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Baseline Model Similarity: 0.3605
+Fine-tuned Model Similarity: 0.6811
+Difference: 0.3207
+
+Example Pair 91:
+Text 1: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Text 2: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Baseline Model Similarity: 0.5229
+Fine-tuned Model Similarity: 0.7946
+Difference: 0.2717
+
+Example Pair 92:
+Text 1: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Text 2: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Baseline Model Similarity: 0.4943
+Fine-tuned Model Similarity: 0.7882
+Difference: 0.2939
+
+Example Pair 93:
+Text 1: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Text 2: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Baseline Model Similarity: 0.5223
+Fine-tuned Model Similarity: 0.6713
+Difference: 0.1490
+
+Example Pair 94:
+Text 1: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Text 2: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Baseline Model Similarity: 0.4785
+Fine-tuned Model Similarity: 0.8278
+Difference: 0.3493
+
+Example Pair 95:
+Text 1: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.6123
+Fine-tuned Model Similarity: 0.7756
+Difference: 0.1633
+
+Example Pair 96:
+Text 1: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.4116
+Fine-tuned Model Similarity: 0.8056
+Difference: 0.3940
+
+Example Pair 97:
+Text 1: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.4821
+Fine-tuned Model Similarity: 0.7569
+Difference: 0.2748
+
+Example Pair 98:
+Text 1: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.5207
+Fine-tuned Model Similarity: 0.7890
+Difference: 0.2683
+
+Example Pair 99:
+Text 1: The malware exfiltrated sensitive data through DNS tunneling to avoid detection by traditional secur...
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.5268
+Fine-tuned Model Similarity: 0.7463
+Difference: 0.2195
+
+Example Pair 100:
+Text 1: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Text 2: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Baseline Model Similarity: 0.4955
+Fine-tuned Model Similarity: 0.6897
+Difference: 0.1943
+
+Example Pair 101:
+Text 1: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Text 2: Cobalt Strike beacons were used for command and control after the initial compromise....
+Baseline Model Similarity: 0.1946
+Fine-tuned Model Similarity: 0.6312
+Difference: 0.4366
+
+Example Pair 102:
+Text 1: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Text 2: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Baseline Model Similarity: 0.4709
+Fine-tuned Model Similarity: 0.7612
+Difference: 0.2903
+
+Example Pair 103:
+Text 1: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Text 2: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Baseline Model Similarity: 0.2588
+Fine-tuned Model Similarity: 0.7375
+Difference: 0.4787
+
+Example Pair 104:
+Text 1: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Text 2: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Baseline Model Similarity: 0.3954
+Fine-tuned Model Similarity: 0.7562
+Difference: 0.3608
+
+Example Pair 105:
+Text 1: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Text 2: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Baseline Model Similarity: 0.4385
+Fine-tuned Model Similarity: 0.6883
+Difference: 0.2498
+
+Example Pair 106:
+Text 1: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Text 2: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Baseline Model Similarity: 0.4627
+Fine-tuned Model Similarity: 0.6381
+Difference: 0.1754
+
+Example Pair 107:
+Text 1: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Text 2: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Baseline Model Similarity: 0.3940
+Fine-tuned Model Similarity: 0.7207
+Difference: 0.3267
+
+Example Pair 108:
+Text 1: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.2829
+Fine-tuned Model Similarity: 0.7822
+Difference: 0.4993
+
+Example Pair 109:
+Text 1: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.3902
+Fine-tuned Model Similarity: 0.7452
+Difference: 0.3550
+
+Example Pair 110:
+Text 1: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.5743
+Fine-tuned Model Similarity: 0.8326
+Difference: 0.2584
+
+Example Pair 111:
+Text 1: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.4555
+Fine-tuned Model Similarity: 0.7413
+Difference: 0.2859
+
+Example Pair 112:
+Text 1: Threat actors launched distributed denial-of-service attacks against the organization's public-facin...
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.4894
+Fine-tuned Model Similarity: 0.7038
+Difference: 0.2144
+
+Example Pair 113:
+Text 1: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Text 2: Cobalt Strike beacons were used for command and control after the initial compromise....
+Baseline Model Similarity: 0.2381
+Fine-tuned Model Similarity: 0.6812
+Difference: 0.4431
+
+Example Pair 114:
+Text 1: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Text 2: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Baseline Model Similarity: 0.4467
+Fine-tuned Model Similarity: 0.7541
+Difference: 0.3074
+
+Example Pair 115:
+Text 1: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Text 2: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Baseline Model Similarity: 0.2962
+Fine-tuned Model Similarity: 0.7156
+Difference: 0.4194
+
+Example Pair 116:
+Text 1: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Text 2: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Baseline Model Similarity: 0.5203
+Fine-tuned Model Similarity: 0.7003
+Difference: 0.1800
+
+Example Pair 117:
+Text 1: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Text 2: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Baseline Model Similarity: 0.5011
+Fine-tuned Model Similarity: 0.7512
+Difference: 0.2501
+
+Example Pair 118:
+Text 1: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Text 2: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Baseline Model Similarity: 0.5223
+Fine-tuned Model Similarity: 0.7231
+Difference: 0.2008
+
+Example Pair 119:
+Text 1: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Text 2: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Baseline Model Similarity: 0.4913
+Fine-tuned Model Similarity: 0.7946
+Difference: 0.3033
+
+Example Pair 120:
+Text 1: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.3427
+Fine-tuned Model Similarity: 0.7023
+Difference: 0.3596
+
+Example Pair 121:
+Text 1: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.5410
+Fine-tuned Model Similarity: 0.8182
+Difference: 0.2773
+
+Example Pair 122:
+Text 1: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.4547
+Fine-tuned Model Similarity: 0.7839
+Difference: 0.3292
+
+Example Pair 123:
+Text 1: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.5622
+Fine-tuned Model Similarity: 0.8189
+Difference: 0.2567
+
+Example Pair 124:
+Text 1: The attackers exploited a zero-day vulnerability in the web application to gain initial access....
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.5589
+Fine-tuned Model Similarity: 0.7876
+Difference: 0.2287
+
+Example Pair 125:
+Text 1: Cobalt Strike beacons were used for command and control after the initial compromise....
+Text 2: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Baseline Model Similarity: 0.1256
+Fine-tuned Model Similarity: 0.6968
+Difference: 0.5712
+
+Example Pair 126:
+Text 1: Cobalt Strike beacons were used for command and control after the initial compromise....
+Text 2: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Baseline Model Similarity: 0.2714
+Fine-tuned Model Similarity: 0.6915
+Difference: 0.4201
+
+Example Pair 127:
+Text 1: Cobalt Strike beacons were used for command and control after the initial compromise....
+Text 2: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Baseline Model Similarity: 0.2849
+Fine-tuned Model Similarity: 0.7303
+Difference: 0.4454
+
+Example Pair 128:
+Text 1: Cobalt Strike beacons were used for command and control after the initial compromise....
+Text 2: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Baseline Model Similarity: 0.3003
+Fine-tuned Model Similarity: 0.8284
+Difference: 0.5282
+
+Example Pair 129:
+Text 1: Cobalt Strike beacons were used for command and control after the initial compromise....
+Text 2: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Baseline Model Similarity: 0.2681
+Fine-tuned Model Similarity: 0.5651
+Difference: 0.2970
+
+Example Pair 130:
+Text 1: Cobalt Strike beacons were used for command and control after the initial compromise....
+Text 2: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Baseline Model Similarity: 0.3131
+Fine-tuned Model Similarity: 0.7857
+Difference: 0.4726
+
+Example Pair 131:
+Text 1: Cobalt Strike beacons were used for command and control after the initial compromise....
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.1928
+Fine-tuned Model Similarity: 0.6791
+Difference: 0.4863
+
+Example Pair 132:
+Text 1: Cobalt Strike beacons were used for command and control after the initial compromise....
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.2217
+Fine-tuned Model Similarity: 0.6932
+Difference: 0.4714
+
+Example Pair 133:
+Text 1: Cobalt Strike beacons were used for command and control after the initial compromise....
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.1850
+Fine-tuned Model Similarity: 0.6965
+Difference: 0.5115
+
+Example Pair 134:
+Text 1: Cobalt Strike beacons were used for command and control after the initial compromise....
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.3167
+Fine-tuned Model Similarity: 0.7903
+Difference: 0.4736
+
+Example Pair 135:
+Text 1: Cobalt Strike beacons were used for command and control after the initial compromise....
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.2388
+Fine-tuned Model Similarity: 0.7160
+Difference: 0.4772
+
+Example Pair 136:
+Text 1: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Text 2: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Baseline Model Similarity: 0.3183
+Fine-tuned Model Similarity: 0.8396
+Difference: 0.5213
+
+Example Pair 137:
+Text 1: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Text 2: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Baseline Model Similarity: 0.4373
+Fine-tuned Model Similarity: 0.7730
+Difference: 0.3357
+
+Example Pair 138:
+Text 1: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Text 2: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Baseline Model Similarity: 0.4773
+Fine-tuned Model Similarity: 0.8208
+Difference: 0.3435
+
+Example Pair 139:
+Text 1: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Text 2: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Baseline Model Similarity: 0.4355
+Fine-tuned Model Similarity: 0.7263
+Difference: 0.2908
+
+Example Pair 140:
+Text 1: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Text 2: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Baseline Model Similarity: 0.4312
+Fine-tuned Model Similarity: 0.7919
+Difference: 0.3607
+
+Example Pair 141:
+Text 1: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.4032
+Fine-tuned Model Similarity: 0.7880
+Difference: 0.3848
+
+Example Pair 142:
+Text 1: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.3014
+Fine-tuned Model Similarity: 0.7846
+Difference: 0.4832
+
+Example Pair 143:
+Text 1: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.6229
+Fine-tuned Model Similarity: 0.8678
+Difference: 0.2449
+
+Example Pair 144:
+Text 1: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.4345
+Fine-tuned Model Similarity: 0.8349
+Difference: 0.4004
+
+Example Pair 145:
+Text 1: The threat actor used social engineering tactics to convince employees to install malicious browser ...
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.3832
+Fine-tuned Model Similarity: 0.7959
+Difference: 0.4127
+
+Example Pair 146:
+Text 1: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Text 2: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Baseline Model Similarity: 0.4331
+Fine-tuned Model Similarity: 0.8140
+Difference: 0.3809
+
+Example Pair 147:
+Text 1: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Text 2: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Baseline Model Similarity: 0.4256
+Fine-tuned Model Similarity: 0.7926
+Difference: 0.3670
+
+Example Pair 148:
+Text 1: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Text 2: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Baseline Model Similarity: 0.3934
+Fine-tuned Model Similarity: 0.6734
+Difference: 0.2800
+
+Example Pair 149:
+Text 1: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Text 2: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Baseline Model Similarity: 0.3419
+Fine-tuned Model Similarity: 0.7179
+Difference: 0.3759
+
+Example Pair 150:
+Text 1: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.3427
+Fine-tuned Model Similarity: 0.7073
+Difference: 0.3646
+
+Example Pair 151:
+Text 1: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.2993
+Fine-tuned Model Similarity: 0.7336
+Difference: 0.4343
+
+Example Pair 152:
+Text 1: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.2794
+Fine-tuned Model Similarity: 0.7552
+Difference: 0.4758
+
+Example Pair 153:
+Text 1: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.4707
+Fine-tuned Model Similarity: 0.8605
+Difference: 0.3898
+
+Example Pair 154:
+Text 1: APT groups maintained persistence by creating scheduled tasks that execute malware at system startup...
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.4164
+Fine-tuned Model Similarity: 0.8589
+Difference: 0.4424
+
+Example Pair 155:
+Text 1: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Text 2: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Baseline Model Similarity: 0.5582
+Fine-tuned Model Similarity: 0.8408
+Difference: 0.2826
+
+Example Pair 156:
+Text 1: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Text 2: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Baseline Model Similarity: 0.5348
+Fine-tuned Model Similarity: 0.6442
+Difference: 0.1094
+
+Example Pair 157:
+Text 1: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Text 2: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Baseline Model Similarity: 0.4913
+Fine-tuned Model Similarity: 0.7925
+Difference: 0.3012
+
+Example Pair 158:
+Text 1: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.3725
+Fine-tuned Model Similarity: 0.7107
+Difference: 0.3382
+
+Example Pair 159:
+Text 1: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.3875
+Fine-tuned Model Similarity: 0.7401
+Difference: 0.3525
+
+Example Pair 160:
+Text 1: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.3868
+Fine-tuned Model Similarity: 0.7581
+Difference: 0.3714
+
+Example Pair 161:
+Text 1: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.4949
+Fine-tuned Model Similarity: 0.7976
+Difference: 0.3027
+
+Example Pair 162:
+Text 1: The attackers disabled security tools by modifying registry keys before deploying their payloads....
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.5714
+Fine-tuned Model Similarity: 0.8108
+Difference: 0.2394
+
+Example Pair 163:
+Text 1: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Text 2: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Baseline Model Similarity: 0.5799
+Fine-tuned Model Similarity: 0.6834
+Difference: 0.1035
+
+Example Pair 164:
+Text 1: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Text 2: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Baseline Model Similarity: 0.5885
+Fine-tuned Model Similarity: 0.8925
+Difference: 0.3040
+
+Example Pair 165:
+Text 1: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.3592
+Fine-tuned Model Similarity: 0.7107
+Difference: 0.3515
+
+Example Pair 166:
+Text 1: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.4700
+Fine-tuned Model Similarity: 0.7886
+Difference: 0.3186
+
+Example Pair 167:
+Text 1: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.5190
+Fine-tuned Model Similarity: 0.8056
+Difference: 0.2866
+
+Example Pair 168:
+Text 1: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.6130
+Fine-tuned Model Similarity: 0.8755
+Difference: 0.2625
+
+Example Pair 169:
+Text 1: Attackers utilized PowerShell Empire for post-exploitation activities and lateral movement....
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.5625
+Fine-tuned Model Similarity: 0.8305
+Difference: 0.2680
+
+Example Pair 170:
+Text 1: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Text 2: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Baseline Model Similarity: 0.5850
+Fine-tuned Model Similarity: 0.7460
+Difference: 0.1610
+
+Example Pair 171:
+Text 1: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.4238
+Fine-tuned Model Similarity: 0.6508
+Difference: 0.2271
+
+Example Pair 172:
+Text 1: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.4881
+Fine-tuned Model Similarity: 0.7949
+Difference: 0.3068
+
+Example Pair 173:
+Text 1: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.5226
+Fine-tuned Model Similarity: 0.7120
+Difference: 0.1894
+
+Example Pair 174:
+Text 1: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.5105
+Fine-tuned Model Similarity: 0.7239
+Difference: 0.2134
+
+Example Pair 175:
+Text 1: The threat actors performed credential dumping using Mimikatz to extract passwords from memory....
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.5511
+Fine-tuned Model Similarity: 0.7230
+Difference: 0.1719
+
+Example Pair 176:
+Text 1: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Text 2: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Baseline Model Similarity: 0.3259
+Fine-tuned Model Similarity: 0.7618
+Difference: 0.4358
+
+Example Pair 177:
+Text 1: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.4497
+Fine-tuned Model Similarity: 0.8328
+Difference: 0.3831
+
+Example Pair 178:
+Text 1: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.5009
+Fine-tuned Model Similarity: 0.8415
+Difference: 0.3406
+
+Example Pair 179:
+Text 1: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.5063
+Fine-tuned Model Similarity: 0.8498
+Difference: 0.3435
+
+Example Pair 180:
+Text 1: Adversaries used RDP for lateral movement after compromising administrator credentials....
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.6225
+Fine-tuned Model Similarity: 0.8237
+Difference: 0.2013
+
+Example Pair 181:
+Text 1: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Text 2: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Baseline Model Similarity: 0.3230
+Fine-tuned Model Similarity: 0.7929
+Difference: 0.4699
+
+Example Pair 182:
+Text 1: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.4643
+Fine-tuned Model Similarity: 0.8091
+Difference: 0.3447
+
+Example Pair 183:
+Text 1: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.3554
+Fine-tuned Model Similarity: 0.7463
+Difference: 0.3909
+
+Example Pair 184:
+Text 1: The malware encrypted files and displayed a ransom note demanding payment for decryption keys....
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.3119
+Fine-tuned Model Similarity: 0.6869
+Difference: 0.3750
+
+Example Pair 185:
+Text 1: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Text 2: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Baseline Model Similarity: 0.4265
+Fine-tuned Model Similarity: 0.8038
+Difference: 0.3773
+
+Example Pair 186:
+Text 1: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.4584
+Fine-tuned Model Similarity: 0.8287
+Difference: 0.3703
+
+Example Pair 187:
+Text 1: Attackers exploited misconfigured cloud storage buckets to access sensitive data....
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.4655
+Fine-tuned Model Similarity: 0.7846
+Difference: 0.3191
+
+Example Pair 188:
+Text 1: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Text 2: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Baseline Model Similarity: 0.4002
+Fine-tuned Model Similarity: 0.7864
+Difference: 0.3862
+
+Example Pair 189:
+Text 1: The threat actor used spear-phishing emails with malicious attachments targeting executives....
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.4879
+Fine-tuned Model Similarity: 0.7589
+Difference: 0.2710
+
+Example Pair 190:
+Text 1: Adversaries deployed web shells on compromised web servers to maintain persistent access....
+Text 2: The attackers created rogue admin accounts to maintain access even after remediation efforts....
+Baseline Model Similarity: 0.5642
+Fine-tuned Model Similarity: 0.9049
+Difference: 0.3407
+

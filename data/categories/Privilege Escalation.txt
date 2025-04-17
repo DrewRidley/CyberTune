@@ -1,0 +1,32 @@
+Exploitation of access token manipulation to elevate privileges
+Evidence suggests exploitation of access token manipulation to elevate privileges which was previously unreported
+Evidence suggests exploitation of access token manipulation to elevate privileges
+Forensic analysis identified exploitation of access token manipulation to elevate privileges
+Bypass of user account control through known vulnerabilities
+Evidence suggests bypass of user account control through known vulnerabilities according to incident responders
+The malware performs bypass of user account control through known vulnerabilities
+Investigation revealed bypass of user account control through known vulnerabilities
+DLL search order hijacking to execute with elevated privileges
+The malware performs dll search order hijacking to execute with elevated privileges
+Forensic analysis identified dll search order hijacking to execute with elevated privileges
+The malware performs dll search order hijacking to execute with elevated privileges
+Exploitation of setuid and setgid bits on executable files
+The malware performs exploitation of setuid and setgid bits on executable files
+The malware performs exploitation of setuid and setgid bits on executable files to achieve their objectives
+Forensic analysis identified exploitation of setuid and setgid bits on executable files
+Abuse of sudo privileges through configuration weaknesses
+Investigation revealed abuse of sudo privileges through configuration weaknesses
+Analysts observed abuse of sudo privileges through configuration weaknesses
+The malware performs abuse of sudo privileges through configuration weaknesses according to incident responders
+Process injection to execute code in the context of another process
+The malware performs process injection to execute code in the context of another process similar to known APT behaviors
+The threat actor engaged in process injection to execute code in the context of another process
+The threat actor engaged in process injection to execute code in the context of another process according to incident responders
+Scheduled task manipulation to gain system-level privileges
+Forensic analysis identified scheduled task manipulation to gain system-level privileges indicating sophisticated actors
+Forensic analysis identified scheduled task manipulation to gain system-level privileges bypassing standard security measures
+The malware performs scheduled task manipulation to gain system-level privileges
+Exploitation of vulnerable kernel drivers for privilege escalation
+Forensic analysis identified exploitation of vulnerable kernel drivers for privilege escalation
+Analysts observed exploitation of vulnerable kernel drivers for privilege escalation to achieve their objectives
+Security logs showed exploitation of vulnerable kernel drivers for privilege escalation as part of the attack chain

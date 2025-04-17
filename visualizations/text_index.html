@@ -1,0 +1,93 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>TTP Categorization Results</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            table { border-collapse: collapse; width: 100%; }
+            th, td { border: 1px solid #ddd; padding: 8px; }
+            tr:nth-child(even) { background-color: #f2f2f2; }
+            th { padding-top: 12px; padding-bottom: 12px; text-align: left; background-color: #4CAF50; color: white; }
+            .high { background-color: #a8e6cf; }
+            .medium { background-color: #dcedc1; }
+            .low { background-color: #ffd3b6; }
+        </style>
+    </head>
+    <body>
+        <h1>TTP Categorization Results</h1>
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Text</th>
+                <th>Mapped Category</th>
+                <th>Similarity Score</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td>The attackers used DNS tunneling to exfiltrate data and evade traditional network security controls.</td>
+                <td>Exfiltration</td>
+                <td class="high">0.9008</td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td>Malicious actors planted USB devices in the parking lot for employees to find and connect to their work computers.</td>
+                <td>Initial Access</td>
+                <td class="high">0.8659</td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td>The threat group leveraged a zero-day vulnerability in the organization's VPN appliance to gain initial access.</td>
+                <td>Initial Access</td>
+                <td class="low">0.7464</td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td>Command and control traffic was disguised as normal HTTPS traffic to trusted cloud services.</td>
+                <td>Impact</td>
+                <td class="medium">0.8451</td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td>The malware performed fileless execution by running entirely in memory without touching the disk.</td>
+                <td>Impact</td>
+                <td class="low">0.7341</td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td>Administrative credentials were harvested using a keylogger installed through a phishing campaign.</td>
+                <td>Credential Access</td>
+                <td class="medium">0.8466</td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td>The attackers utilized living-off-the-land techniques, leveraging built-in Windows tools like PowerShell and WMI.</td>
+                <td>Collection</td>
+                <td class="high">0.8525</td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td>After compromising the network, the threat actor established persistence through scheduled tasks that survived reboots.</td>
+                <td>Persistence</td>
+                <td class="high">0.8905</td>
+            </tr>
+        
+            <tr>
+                <td>9</td>
+                <td>The ransomware encrypted files with a hybrid algorithm combining RSA and AES for maximum impact.</td>
+                <td>Impact</td>
+                <td class="high">0.8959</td>
+            </tr>
+        
+        </table>
+    </body>
+    </html>
+    

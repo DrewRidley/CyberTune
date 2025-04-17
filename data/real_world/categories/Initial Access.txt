@@ -1,0 +1,10 @@
+APT29 used spear-phishing emails with malicious links to harvest credentials and gain initial access to targeted organizations.
+The Lazarus Group compromised legitimate websites frequently visited by employees (strategic web compromise) to establish initial access.
+Threat actors exploited CVE-2021-26855, a Microsoft Exchange Server vulnerability, to gain unauthorized access to email accounts.
+APT41 leveraged a zero-day vulnerability in a VPN appliance to establish persistent access to the victim network.
+The threat actor used valid accounts obtained through credential stuffing attacks against the organization's VPN solution.
+The SolarWinds supply chain attack involved trojanized updates that created a backdoor in affected organizations.
+FIN7 sent targeted spear-phishing emails with malicious Microsoft Office attachments to employees in specific departments.
+The attackers placed malicious USB drives in the company parking lot, relying on employees to connect them to workstations.
+Conti ransomware operators purchased access to already-compromised networks through an Initial Access Broker (IAB).
+The adversary exploited an insecure direct object reference in the web application to gain unauthorized access to user accounts.

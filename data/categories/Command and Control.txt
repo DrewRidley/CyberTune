@@ -1,0 +1,32 @@
+Application layer protocol use for command channel
+Investigation revealed application layer protocol use for command channel as part of the attack chain
+Security logs showed application layer protocol use for command channel
+Analysts observed application layer protocol use for command channel to achieve their objectives
+Domain fronting through trusted domains to hide traffic
+The malware performs domain fronting through trusted domains to hide traffic
+Security logs showed domain fronting through trusted domains to hide traffic
+Security logs showed domain fronting through trusted domains to hide traffic
+Data encoding using custom algorithms to obfuscate communication
+The threat actor engaged in data encoding using custom algorithms to obfuscate communication
+Investigation revealed data encoding using custom algorithms to obfuscate communication
+Evidence suggests data encoding using custom algorithms to obfuscate communication
+Fallback channels when primary communication is disrupted
+Security logs showed fallback channels when primary communication is disrupted which was previously unreported
+Investigation revealed fallback channels when primary communication is disrupted
+Analysts observed fallback channels when primary communication is disrupted
+Multi-stage channels using different protocols for each stage
+Security logs showed multi-stage channels using different protocols for each stage
+The malware performs multi-stage channels using different protocols for each stage
+Security logs showed multi-stage channels using different protocols for each stage
+Port knocking to hide open command and control channels
+Analysts observed port knocking to hide open command and control channels bypassing standard security measures
+Security logs showed port knocking to hide open command and control channels
+Investigation revealed port knocking to hide open command and control channels
+Use of web service APIs for command and control
+Forensic analysis identified use of web service apis for command and control similar to known APT behaviors
+Analysts observed use of web service apis for command and control according to incident responders
+Investigation revealed use of web service apis for command and control
+Traffic signaling to activate dormant implants
+Security logs showed traffic signaling to activate dormant implants
+The malware performs traffic signaling to activate dormant implants
+The attack involved traffic signaling to activate dormant implants

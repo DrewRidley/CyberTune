@@ -1,0 +1,10 @@
+Conti ransomware operators encrypted critical databases with RSA-2048 after exfiltrating sensitive information.
+The threat actor deployed wiper malware that corrupted the master boot record on critical systems.
+NotPetya malware spread rapidly through the network, rendering systems inoperable across multiple continents.
+The attackers modified source code in the CI/CD pipeline, introducing subtle vulnerabilities in the product.
+Maze ransomware operators published stolen data on their leak site after the organization refused to pay.
+The adversary manipulated database records to create fraudulent financial transactions.
+Threat actors defaced the organization's website with politically motivated messages.
+The attackers manipulated SCADA systems controlling industrial equipment, causing physical damage.
+LockBit ransomware encrypted backups before encrypting production systems to prevent recovery.
+The threat actor used stolen credentials to make unauthorized wire transfers to overseas accounts.

@@ -1,0 +1,2317 @@
+[
+  {
+    "sentence1": "The malware performs exploitation of rootkits to hide implants and backdoors",
+    "sentence2": "Timestomping of files to hide modification times",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Port knocking techniques to hide open ports from scans",
+    "sentence2": "Data from local systems gathered using scripts",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Security logs showed execution through module load to bypass application controls",
+    "sentence2": "Scheduled task creation to maintain persistence",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests command-line interface usage to run unauthorized commands",
+    "sentence2": "Dynamic data exchange protocol exploitation in Office documents",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified spear phishing links embedded in tailored emails to specific employees",
+    "sentence2": "Drive-by compromise through browser vulnerabilities",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Defacement of websites to demonstrate compromise",
+    "sentence2": "Audio capture from compromised meeting room systems",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor used valid accounts obtained through credential stuffing attacks against the organization's VPN solution.",
+    "sentence2": "FIN7 sent targeted spear-phishing emails with malicious Microsoft Office attachments to employees in specific departments.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of vulnerable kernel drivers for privilege escalation",
+    "sentence2": "Scheduled transfer of data during off-hours to avoid detection",
+    "label": 0.0
+  },
+  {
+    "sentence1": "LAPSUS$ threat actors mapped out the victim's CI/CD pipeline to identify access points to source code repositories.",
+    "sentence2": "APT29 used Active Directory enumeration tools to map out the network structure and identify high-value targets.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Disabling security tools through registry modifications",
+    "sentence2": "Forensic analysis identified disabling security tools through registry modifications",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed kerberoasting to extract service account credentials bypassing standard security measures",
+    "sentence2": "Unsecured credential storage exploitation in configuration files",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary queried the Windows registry to discover installed security software and potential bypass methods.",
+    "sentence2": "APT29 used Active Directory enumeration tools to map out the network structure and identify high-value targets.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attackers used internal spear-phishing emails sent from compromised accounts to infect additional users.",
+    "sentence2": "Threat actors exploited Kerberos delegation to move between systems while maintaining privileged access.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary deleted Windows Event Logs to cover their tracks after successful exploitation.",
+    "sentence2": "Threat actors defaced the organization's website with politically motivated messages.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "File and directory discovery to locate sensitive information",
+    "sentence2": "Investigation revealed file and directory discovery to locate sensitive information during the compromise",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests encrypted data exfiltration using custom encryption schemes",
+    "sentence2": "Use of steganography to hide data in images or audio files",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attackers exploited Windows COM Hijacking to execute malicious DLLs when legitimate applications were launched.",
+    "sentence2": "The SideWinder APT group used JavaScript to execute a series of payloads that ultimately led to a backdoor.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT28 used spear-phishing emails with fake Microsoft login pages to capture Office 365 credentials.",
+    "sentence2": "Threat actors exploited the EternalBlue vulnerability to access systems and dump credential hashes.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified disabling security tools through registry modifications bypassing standard security measures",
+    "sentence2": "Use of alternate data streams to hide data in NTFS file systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary implemented domain fronting techniques to disguise malicious traffic as legitimate web services.",
+    "sentence2": "The attackers utilized legitimate cloud services like GitHub and Dropbox for command and control communications.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attackers leveraged Office application startup folders to execute malicious code whenever Office applications started.",
+    "sentence2": "Threat actors exploited the CVE-2020-1472 vulnerability (Zerologon) to obtain domain admin privileges.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "NotPetya malware spread rapidly through the network, rendering systems inoperable across multiple continents.",
+    "sentence2": "The attackers manipulated SCADA systems controlling industrial equipment, causing physical damage.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT29 used steganography to hide malicious code within legitimate PNG image files to evade detection.",
+    "sentence2": "APT41 used living-off-the-land binaries (LOLBins) like certutil.exe to download payloads and evade detection.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved timestomping of files to hide modification times",
+    "sentence2": "Exploitation of rootkits to hide implants and backdoors",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT29 used legitimate remote access tools like RDP and VNC to move laterally through the compromised environment.",
+    "sentence2": "The attackers used internal spear-phishing emails sent from compromised accounts to infect additional users.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT29 used encrypted ZIP archives to package stolen data before exfiltration to avoid detection.",
+    "sentence2": "FIN7 exfiltrated credit card data in small chunks over several days to avoid triggering data loss prevention tools.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "FIN7 used keyloggers to capture credentials as users typed them, including those for financial systems.",
+    "sentence2": "Threat actors exploited the EternalBlue vulnerability to access systems and dump credential hashes.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs audio capture from compromised meeting room systems according to incident responders",
+    "sentence2": "Input capture through keylogging software",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in registry run keys modification for automatic execution at startup during the compromise",
+    "sentence2": "Modification of startup folder with malicious executables",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary leveraged DLL search order hijacking to execute malicious code with elevated privileges.",
+    "sentence2": "APT32 exploited a time-of-check to time-of-use vulnerability in a Windows service to escalate privileges.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Scheduled task manipulation to gain system-level privileges",
+    "sentence2": "Use of web service APIs for command and control",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Dynamic data exchange protocol exploitation in Office documents",
+    "sentence2": "Network share discovery to locate accessible data repositories",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Application layer protocol use for command channel",
+    "sentence2": "Data from cloud storage extracted using API access",
+    "label": 0.0
+  },
+  {
+    "sentence1": "FIN7 used multiple encrypted messaging channels for different phases of their operation.",
+    "sentence2": "The threat actors implemented DNS tunneling to exfiltrate data and receive commands without raising alerts.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor created a backdoored version of the corporate VPN client that was distributed to employees.",
+    "sentence2": "The threat actor harvested browser-saved passwords from Chrome and Firefox profiles on compromised workstations.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in collection of data from removable media when connected during the compromise",
+    "sentence2": "Data from local systems gathered using scripts",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Command-line interface usage to run unauthorized commands",
+    "sentence2": "Manipulation of network traffic to disrupt operations",
+    "label": 0.0
+  },
+  {
+    "sentence1": "PowerShell scripts executed to run malicious commands",
+    "sentence2": "Exploitation of shared webroot in web servers",
+    "label": 0.0
+  },
+  {
+    "sentence1": "APT29 used Active Directory enumeration tools to map out the network structure and identify high-value targets.",
+    "sentence2": "The adversary queried the Windows registry to discover installed security software and potential bypass methods.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs use of signed binary proxy execution through legitimate tools",
+    "sentence2": "Command-line interface usage to run unauthorized commands",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of setuid and setgid bits on executable files",
+    "sentence2": "Forensic analysis identified exploitation of setuid and setgid bits on executable files indicating sophisticated actors",
+    "label": 1.0
+  },
+  {
+    "sentence1": "HAFNIUM exploited credential caches stored on Exchange servers after the initial compromise.",
+    "sentence2": "APT28 used spear-phishing emails with fake Microsoft login pages to capture Office 365 credentials.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Query of registry to identify installed software and configurations",
+    "sentence2": "The threat actor engaged in query of registry to identify installed software and configurations bypassing standard security measures",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed data from cloud storage extracted using api access similar to known APT behaviors",
+    "sentence2": "Email collection from mail servers and client applications",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attackers installed browser extensions that intercepted authentication traffic and stole session cookies.",
+    "sentence2": "BlackCat ransomware operators used Group Policy to deploy and execute their payloads across the network.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "APT29 used legitimate remote access tools like RDP and VNC to move laterally through the compromised environment.",
+    "sentence2": "APT41 leveraged a zero-day vulnerability in a VPN appliance to establish persistent access to the victim network.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "APT41 leveraged a zero-day vulnerability in a VPN appliance to establish persistent access to the victim network.",
+    "sentence2": "The adversary used SSH to connect to remote Linux systems after obtaining valid credentials.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs use of signed binary proxy execution through legitimate tools",
+    "sentence2": "Dynamic data exchange protocol exploitation in Office documents",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Modification of startup folder with malicious executables",
+    "sentence2": "Denial of service attacks against critical infrastructure",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Bootkit installation to survive operating system reinstallation",
+    "sentence2": "Command-line interface usage to run unauthorized commands",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs use of steganography to hide data in images or audio files",
+    "sentence2": "Data compressed before exfiltration to reduce transfer size",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary used steganography to hide stolen data in image files uploaded to public websites.",
+    "sentence2": "The Lazarus Group utilized scheduled tasks to execute malware at specific time intervals or system events.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The adversary implemented domain fronting techniques to disguise malicious traffic as legitimate web services.",
+    "sentence2": "The threat actor encrypted command and control traffic using a custom algorithm to evade network monitoring.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Bypass of user account control through known vulnerabilities",
+    "sentence2": "Extraction of passwords from browser storage locations",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved indicator removal through log clearing and file deletion",
+    "sentence2": "Timestomping of files to hide modification times",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT41 enumerated Active Directory to identify domain administrators and service accounts for lateral movement.",
+    "sentence2": "The adversary queried the Windows registry to discover installed security software and potential bypass methods.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed active scanning of internal networks to map infrastructure as part of the attack chain",
+    "sentence2": "System service discovery to identify potential vulnerabilities",
+    "label": 1.0
+  },
+  {
+    "sentence1": "FIN7 captured screenshots every 30 seconds to monitor user activity and identify valuable information.",
+    "sentence2": "Maze ransomware operators used automated tools to identify and collect sensitive documents before encryption.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Browser extensions added to maintain access through web browsers",
+    "sentence2": "Exploitation of setuid and setgid bits on executable files",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved use of web service apis for command and control which was previously unreported",
+    "sentence2": "Domain fronting through trusted domains to hide traffic",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Fallback channels when primary communication is disrupted",
+    "sentence2": "Use of remote file copy to transfer tools between systems",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor used valid accounts obtained through credential stuffing attacks against the organization's VPN solution.",
+    "sentence2": "The Lazarus Group compromised legitimate websites frequently visited by employees (strategic web compromise) to establish initial access.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Unsecured credential storage exploitation in configuration files",
+    "sentence2": "Drive-by compromise through browser vulnerabilities",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Evidence suggests exploitation of rootkits to hide implants and backdoors",
+    "sentence2": "Code signing certificates used to sign malicious executables",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data encryption for ransom using sophisticated ransomware",
+    "sentence2": "External remote services exploitation using brute force techniques",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attackers used legitimate cloud storage services to exfiltrate data, appearing as normal business activity.",
+    "sentence2": "Lazarus Group operators exfiltrated data over alternative protocols like DNS and ICMP to evade controls.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Query of registry to identify installed software and configurations",
+    "sentence2": "Spear phishing links embedded in tailored emails to specific employees",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified creation of new services configured to execute at system boot similar to known APT behaviors",
+    "sentence2": "Modification of startup folder with malicious executables",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack group systematically extracted customer databases containing personally identifiable information.",
+    "sentence2": "APT29 deployed custom tools to systematically extract emails from Microsoft Exchange servers over several months.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The FIN7 group used Kerberoasting attacks to extract and crack service account credentials with high privileges.",
+    "sentence2": "The CARBON SPIDER group used token manipulation to duplicate access tokens of high-privilege processes.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Scheduled tasks added to maintain access after system reboots",
+    "sentence2": "Credential dumping from memory using Mimikatz-like tools",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified password spraying attacks using common passwords",
+    "sentence2": "Brute force attacks against authentication systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Port knocking to hide open command and control channels",
+    "sentence2": "Exploitation of public-facing applications with known vulnerabilities",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed forced authentication through fake smb servers during the compromise",
+    "sentence2": "Unsecured credential storage exploitation in configuration files",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT41 leveraged a zero-day vulnerability in a VPN appliance to establish persistent access to the victim network.",
+    "sentence2": "The Lazarus Group compromised legitimate websites frequently visited by employees (strategic web compromise) to establish initial access.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "NOBELIUM used obfuscated JavaScript and PowerShell to hide malicious code from security analysis tools.",
+    "sentence2": "Kimsuky APT group used legitimate cloud services for command and control, blending in with normal network traffic.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved use of alternate data streams to hide data in ntfs file systems indicating sophisticated actors",
+    "sentence2": "Port knocking techniques to hide open ports from scans",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Dynamic data exchange protocol exploitation in Office documents",
+    "sentence2": "Fallback channels when primary communication is disrupted",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved exploitation of access token manipulation to elevate privileges",
+    "sentence2": "Process injection to execute code in the context of another process",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed bypass of user account control through known vulnerabilities",
+    "sentence2": "Exploitation of access token manipulation to elevate privileges",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Supply chain compromise through third-party software providers",
+    "sentence2": "Account manipulation by adding privileges to compromised accounts",
+    "label": 0.0
+  },
+  {
+    "sentence1": "FIN7 captured screenshots every 30 seconds to monitor user activity and identify valuable information.",
+    "sentence2": "The threat actor used valid accounts obtained through credential stuffing attacks against the organization's VPN solution.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs process injection to execute code in the context of another process to achieve their objectives",
+    "sentence2": "Exploitation of setuid and setgid bits on executable files",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Conti ransomware operators used SMB to spread malware to other systems across the network.",
+    "sentence2": "FIN7 group leveraged WMI and PowerShell remoting to execute commands on remote systems for lateral movement.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attackers used DLL side-loading techniques to execute malicious code through legitimate Windows processes.",
+    "sentence2": "Cozy Bear (APT29) used the Microsoft Build Engine (MSBuild) to execute malicious code, bypassing application control.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed query of registry to identify installed software and configurations",
+    "sentence2": "Active scanning of internal networks to map infrastructure",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Extraction of passwords from browser storage locations",
+    "sentence2": "Security logs showed extraction of passwords from browser storage locations indicating sophisticated actors",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed denial of service attacks against critical infrastructure",
+    "sentence2": "Resource hijacking for cryptocurrency mining",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Maze ransomware operators published stolen data on their leak site after the organization refused to pay.",
+    "sentence2": "APT41 enumerated Active Directory to identify domain administrators and service accounts for lateral movement.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "APT41 used custom multi-stage exfiltration tools that encoded and compressed data before transmission.",
+    "sentence2": "The adversary used steganography to hide stolen data in image files uploaded to public websites.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved encrypted data exfiltration using custom encryption schemes",
+    "sentence2": "Traffic signaling to start data exfiltration when safe",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary used SSH to connect to remote Linux systems after obtaining valid credentials.",
+    "sentence2": "The attackers used pass-the-hash techniques with stolen NTLM hashes to authenticate to remote systems.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "LockBit ransomware encrypted backups before encrypting production systems to prevent recovery.",
+    "sentence2": "The threat actor deployed wiper malware that corrupted the master boot record on critical systems.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT41 utilized legitimate systems management software to deploy malware across the network.",
+    "sentence2": "Conti ransomware operators used SMB to spread malware to other systems across the network.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Collection of data from removable media when connected",
+    "sentence2": "Exfiltration over command and control channel to reduce footprint",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved port knocking to hide open command and control channels which was previously unreported",
+    "sentence2": "Traffic signaling to activate dormant implants",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs exploitation of rootkits to hide implants and backdoors",
+    "sentence2": "Indicator removal through log clearing and file deletion",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified spear phishing links embedded in tailored emails to specific employees",
+    "sentence2": "Use of valid accounts obtained through credential stuffing attacks",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Use of remote file copy to transfer tools between systems",
+    "sentence2": "Unsecured credential storage exploitation in configuration files",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed fallback channels when primary communication is disrupted during the compromise",
+    "sentence2": "Traffic signaling to activate dormant implants",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Drive-by compromise through browser vulnerabilities",
+    "sentence2": "File and directory discovery to locate sensitive information",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The adversary deleted Windows Event Logs to cover their tracks after successful exploitation.",
+    "sentence2": "The threat actor disabled Windows Defender by modifying registry keys, preventing detection of their malware.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT41 used custom multi-stage exfiltration tools that encoded and compressed data before transmission.",
+    "sentence2": "Threat actors compromised a trusted third-party vendor to exfiltrate data through an established connection.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor exploited the ZeroLogon vulnerability to move laterally through the domain and compromise additional systems.",
+    "sentence2": "FIN7 group leveraged WMI and PowerShell remoting to execute commands on remote systems for lateral movement.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT29 deployed a custom version of Mimikatz to extract credentials from LSASS memory on compromised systems.",
+    "sentence2": "LAPSUS$ threat actors mapped out the victim's CI/CD pipeline to identify access points to source code repositories.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Analysts observed scheduled task creation to maintain persistence",
+    "sentence2": "Execution through module load to bypass application controls",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The CARBON SPIDER group used token manipulation to duplicate access tokens of high-privilege processes.",
+    "sentence2": "APT41 exploited a local privilege escalation vulnerability in the Windows Print Spooler service (PrintNightmare).",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Firmware corruption to render systems inoperable",
+    "sentence2": "Process injection to execute code in the context of another process",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Use of remote file copy to transfer tools between systems",
+    "sentence2": "Data destruction through secure deletion techniques",
+    "label": 0.0
+  },
+  {
+    "sentence1": "NotPetya malware spread rapidly through the network, rendering systems inoperable across multiple continents.",
+    "sentence2": "The threat actor exfiltrated data using authenticated proxies to appear as legitimate business traffic.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified creation of new services configured to execute at system boot",
+    "sentence2": "Modification of startup folder with malicious executables",
+    "label": 1.0
+  },
+  {
+    "sentence1": "LAPSUS$ used specialized tools to compress and encrypt stolen source code before exfiltration.",
+    "sentence2": "The attackers scheduled data exfiltration during business hours to blend with normal network activity.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "FIN7 exfiltrated credit card data in small chunks over several days to avoid triggering data loss prevention tools.",
+    "sentence2": "LAPSUS$ used specialized tools to compress and encrypt stolen source code before exfiltration.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in phishing emails with malicious attachments targeting organization employees which was previously unreported",
+    "sentence2": "Hardware additions like USB devices planted in physical locations",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Use of alternate authentication material like SSH keys",
+    "sentence2": "Query of registry to identify installed software and configurations",
+    "label": 0.0
+  },
+  {
+    "sentence1": "APT28 used spear-phishing emails with fake Microsoft login pages to capture Office 365 credentials.",
+    "sentence2": "Lazarus Group operators exfiltrated data over alternative protocols like DNS and ICMP to evade controls.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Security logs showed execution through module load to bypass application controls",
+    "sentence2": "Windows Management Instrumentation (WMI) for remote code execution",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed traffic signaling to start data exfiltration when safe during the compromise",
+    "sentence2": "Data compressed before exfiltration to reduce transfer size",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified exploitation of setuid and setgid bits on executable files",
+    "sentence2": "Abuse of sudo privileges through configuration weaknesses",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Dynamic data exchange protocol exploitation in Office documents",
+    "sentence2": "Resource hijacking for cryptocurrency mining",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Evidence suggests use of remote services like rdp for internal network movement according to incident responders",
+    "sentence2": "Exploitation of shared webroot in web servers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data destruction through secure deletion techniques",
+    "sentence2": "Code signing certificates used to sign malicious executables",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The adversary manipulated database records to create fraudulent financial transactions.",
+    "sentence2": "The attackers scheduled data exfiltration during business hours to blend with normal network activity.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in modification of startup folder with malicious executables similar to known APT behaviors",
+    "sentence2": "BITS jobs created to maintain persistence and evade detection",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of rootkits to hide implants and backdoors",
+    "sentence2": "Data encryption for ransom using sophisticated ransomware",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Traffic signaling to activate dormant implants",
+    "sentence2": "Registry run keys modification for automatic execution at startup",
+    "label": 0.0
+  },
+  {
+    "sentence1": "FIN7 implemented fileless malware that operated entirely in memory to avoid leaving traces on disk.",
+    "sentence2": "APT41 leveraged a zero-day vulnerability in a VPN appliance to establish persistent access to the victim network.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Threat actors defaced the organization's website with politically motivated messages.",
+    "sentence2": "NOBELIUM used obfuscated JavaScript and PowerShell to hide malicious code from security analysis tools.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Threat actors installed keyloggers specifically targeting developers with access to proprietary code.",
+    "sentence2": "The attack group systematically extracted customer databases containing personally identifiable information.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved exfiltration over physical medium like usb devices",
+    "sentence2": "Use of steganography to hide data in images or audio files",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT32 utilized PowerShell to enumerate cloud service configuration settings and security policies.",
+    "sentence2": "FIN7 operators used built-in Windows commands to discover network shares containing financial documents.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Brute force attacks against authentication systems",
+    "sentence2": "Binary padding to avoid hash-based detection mechanisms",
+    "label": 0.0
+  },
+  {
+    "sentence1": "HAFNIUM exploited credential caches stored on Exchange servers after the initial compromise.",
+    "sentence2": "FIN7 used keyloggers to capture credentials as users typed them, including those for financial systems.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in supply chain compromise through third-party software providers",
+    "sentence2": "External remote services exploitation using brute force techniques",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary deleted Windows Event Logs to cover their tracks after successful exploitation.",
+    "sentence2": "Lazarus Group operators implemented timestomping to change file timestamps and avoid forensic detection.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Account manipulation by adding privileges to compromised accounts",
+    "sentence2": "Kerberoasting to extract service account credentials",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in disabling security tools through registry modifications",
+    "sentence2": "Port knocking techniques to hide open ports from scans",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Phishing emails with malicious attachments targeting organization employees",
+    "sentence2": "Registry run keys modification for automatic execution at startup",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved use of web service apis for command and control to achieve their objectives",
+    "sentence2": "Domain fronting through trusted domains to hide traffic",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Firmware corruption to render systems inoperable",
+    "sentence2": "Drive-by compromise through browser vulnerabilities",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Browser bookmark discovery to gather intelligence on interests",
+    "sentence2": "Exploitation of shared webroot in web servers",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved use of alternate data streams to hide data in ntfs file systems indicating sophisticated actors",
+    "sentence2": "Exploitation of rootkits to hide implants and backdoors",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Threat actors installed keyloggers specifically targeting developers with access to proprietary code.",
+    "sentence2": "FIN7 captured screenshots every 30 seconds to monitor user activity and identify valuable information.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed brute force attacks against authentication systems indicating sophisticated actors",
+    "sentence2": "Kerberoasting to extract service account credentials",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs exploitation of rootkits to hide implants and backdoors",
+    "sentence2": "Binary padding to avoid hash-based detection mechanisms",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Disk wipe attacks targeting master boot records",
+    "sentence2": "Code signing certificates used to sign malicious executables",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs use of valid accounts obtained through credential stuffing attacks",
+    "sentence2": "Phishing emails with malicious attachments targeting organization employees",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in modification of startup folder with malicious executables indicating sophisticated actors",
+    "sentence2": "BITS jobs created to maintain persistence and evade detection",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Domain fronting through trusted domains to hide traffic",
+    "sentence2": "Denial of service attacks against critical infrastructure",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attackers utilized legitimate cloud services like GitHub and Dropbox for command and control communications.",
+    "sentence2": "The adversary implemented domain fronting techniques to disguise malicious traffic as legitimate web services.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Process injection to execute code in the context of another process",
+    "sentence2": "The malware performs process injection to execute code in the context of another process to achieve their objectives",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Attackers used the Juicy Potato exploit to elevate privileges on Windows systems by abusing impersonation privileges.",
+    "sentence2": "APT41 used living-off-the-land binaries (LOLBins) like certutil.exe to download payloads and evade detection.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified account enumeration to find valid user accounts to achieve their objectives",
+    "sentence2": "Browser bookmark discovery to gather intelligence on interests",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests use of alternate authentication material like ssh keys during the compromise",
+    "sentence2": "Use of remote file copy to transfer tools between systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exfiltration over command and control channel to reduce footprint",
+    "sentence2": "Application layer protocol use for command channel",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Network share discovery to locate accessible data repositories",
+    "sentence2": "The malware performs network share discovery to locate accessible data repositories according to incident responders",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary implemented domain fronting techniques to disguise malicious traffic as legitimate web services.",
+    "sentence2": "APT29 used HTTPS with custom encryption to communicate with command and control servers, blending with normal traffic.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The SolarWinds supply chain attack involved trojanized updates that created a backdoor in affected organizations.",
+    "sentence2": "Conti ransomware operators purchased access to already-compromised networks through an Initial Access Broker (IAB).",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Threat actors compromised a trusted third-party vendor to exfiltrate data through an established connection.",
+    "sentence2": "APT41 used custom multi-stage exfiltration tools that encoded and compressed data before transmission.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs browser extensions added to maintain access through web browsers bypassing standard security measures",
+    "sentence2": "Bootkit installation to survive operating system reinstallation",
+    "label": 1.0
+  },
+  {
+    "sentence1": "FIN7 captured screenshots every 30 seconds to monitor user activity and identify valuable information.",
+    "sentence2": "The adversary used steganography to hide stolen data in image files uploaded to public websites.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The Lazarus Group utilized scheduled tasks to execute malware at specific time intervals or system events.",
+    "sentence2": "The adversary installed a bootkit that infected the master boot record, ensuring persistence across OS reinstalls.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Binary padding to avoid hash-based detection mechanisms",
+    "sentence2": "Execution via API calls to evade detection mechanisms",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Supply chain compromise through third-party software providers",
+    "sentence2": "Traffic signaling to start data exfiltration when safe",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack group systematically extracted customer databases containing personally identifiable information.",
+    "sentence2": "Threat actors installed keyloggers specifically targeting developers with access to proprietary code.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed email collection from mail servers and client applications during the compromise",
+    "sentence2": "Automated collection of sensitive documents",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forced authentication through fake SMB servers",
+    "sentence2": "Exploitation of internal spearphishing with malicious links",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The Lazarus Group compromised legitimate websites frequently visited by employees (strategic web compromise) to establish initial access.",
+    "sentence2": "APT29 used spear-phishing emails with malicious links to harvest credentials and gain initial access to targeted organizations.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed network sniffing to capture credentials transmitted in cleartext",
+    "sentence2": "Kerberoasting to extract service account credentials",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary used SSH to connect to remote Linux systems after obtaining valid credentials.",
+    "sentence2": "HAFNIUM threat actors exploited trust relationships between servers to move laterally to additional Exchange servers.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The CARBON SPIDER group used token manipulation to duplicate access tokens of high-privilege processes.",
+    "sentence2": "Sandworm exploited a buffer overflow vulnerability in a third-party driver to gain SYSTEM privileges on compromised hosts.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Pass-the-hash attacks using stolen password hashes",
+    "sentence2": "Data from local systems gathered using scripts",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved extraction of passwords from browser storage locations",
+    "sentence2": "Forced authentication through fake SMB servers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data from local systems gathered using scripts",
+    "sentence2": "Abuse of sudo privileges through configuration weaknesses",
+    "label": 0.0
+  },
+  {
+    "sentence1": "BlackCat ransomware operators conducted extensive network scanning to identify vulnerable systems and critical data stores.",
+    "sentence2": "APT29 deployed custom tools to systematically extract emails from Microsoft Exchange servers over several months.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed data destruction through secure deletion techniques",
+    "sentence2": "Resource hijacking for cryptocurrency mining",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests system service discovery to identify potential vulnerabilities as part of the attack chain",
+    "sentence2": "Network share discovery to locate accessible data repositories",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT29 used steganography to hide malicious code within legitimate PNG image files to evade detection.",
+    "sentence2": "The attackers employed binary padding techniques to modify hash values and evade signature-based detection.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Indicator removal through log clearing and file deletion",
+    "sentence2": "Data destruction through secure deletion techniques",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attackers placed malicious USB drives in the company parking lot, relying on employees to connect them to workstations.",
+    "sentence2": "LAPSUS$ threat actors mapped out the victim's CI/CD pipeline to identify access points to source code repositories.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Bootkit installation to survive operating system reinstallation",
+    "sentence2": "Data from local systems gathered using scripts",
+    "label": 0.0
+  },
+  {
+    "sentence1": "External remote services exploitation using brute force techniques",
+    "sentence2": "Network share discovery to locate accessible data repositories",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed scheduled task manipulation to gain system-level privileges",
+    "sentence2": "Exploitation of setuid and setgid bits on executable files",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests encrypted data exfiltration using custom encryption schemes",
+    "sentence2": "Scheduled transfer of data during off-hours to avoid detection",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attackers utilized scheduled polling intervals with jitter to avoid detection of regular communication patterns.",
+    "sentence2": "The attackers utilized legitimate cloud services like GitHub and Dropbox for command and control communications.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Extraction of passwords from browser storage locations",
+    "sentence2": "Modification of startup folder with malicious executables",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved exploitation of shared webroot in web servers",
+    "sentence2": "Pass-the-hash attacks using stolen password hashes",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Denial of service attacks against critical infrastructure",
+    "sentence2": "Security logs showed denial of service attacks against critical infrastructure",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed exploitation of vulnerable kernel drivers for privilege escalation bypassing standard security measures",
+    "sentence2": "Scheduled task manipulation to gain system-level privileges",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attackers leveraged Office application startup folders to execute malicious code whenever Office applications started.",
+    "sentence2": "The attackers employed binary padding techniques to modify hash values and evade signature-based detection.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The adversary queried the Windows registry to discover installed security software and potential bypass methods.",
+    "sentence2": "LAPSUS$ exfiltrated source code repositories after compromising development environments.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Port knocking to hide open command and control channels",
+    "sentence2": "Use of remote services like RDP for internal network movement",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs exploitation of rootkits to hide implants and backdoors",
+    "sentence2": "Disabling security tools through registry modifications",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Use of web service APIs for command and control",
+    "sentence2": "Windows Management Instrumentation (WMI) for remote code execution",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Query of registry to identify installed software and configurations",
+    "sentence2": "Code signing certificates used to sign malicious executables",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The SolarWinds supply chain attack involved trojanized updates that created a backdoor in affected organizations.",
+    "sentence2": "The threat actor exploited the ZeroLogon vulnerability to move laterally through the domain and compromise additional systems.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Execution through module load to bypass application controls",
+    "sentence2": "Disabling security tools through registry modifications",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved registry run keys modification for automatic execution at startup",
+    "sentence2": "Account manipulation by adding privileges to compromised accounts",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT32 achieved persistence by installing malicious browser extensions in the Chrome browser used by employees.",
+    "sentence2": "Turla APT group implanted malicious code in the Windows Management Instrumentation (WMI) repository for persistence.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed brute force attacks against authentication systems indicating sophisticated actors",
+    "sentence2": "Network sniffing to capture credentials transmitted in cleartext",
+    "label": 1.0
+  },
+  {
+    "sentence1": "FIN7 group leveraged WMI and PowerShell remoting to execute commands on remote systems for lateral movement.",
+    "sentence2": "FIN7 captured screenshots every 30 seconds to monitor user activity and identify valuable information.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved scheduled tasks added to maintain access after system reboots as part of the attack chain",
+    "sentence2": "Browser extensions added to maintain access through web browsers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary leveraged DLL search order hijacking to execute malicious code with elevated privileges.",
+    "sentence2": "The attackers performed UAC bypass using the Fodhelper technique to execute code with elevated privileges.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT29 modified registry run keys to maintain persistence across system reboots.",
+    "sentence2": "APT32 achieved persistence by installing malicious browser extensions in the Chrome browser used by employees.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified spear phishing links embedded in tailored emails to specific employees",
+    "sentence2": "Exploitation of public-facing applications with known vulnerabilities",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Scheduled tasks added to maintain access after system reboots",
+    "sentence2": "Denial of service attacks against critical infrastructure",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Exploitation of shared webroot in web servers",
+    "sentence2": "File and directory discovery to locate sensitive information",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Fin7 threat actors added their malware to the Windows startup folder to ensure execution at system boot.",
+    "sentence2": "The adversary installed a bootkit that infected the master boot record, ensuring persistence across OS reinstalls.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests network sniffing to capture credentials transmitted in cleartext",
+    "sentence2": "Password spraying attacks using common passwords",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Hardware additions like USB devices planted in physical locations",
+    "sentence2": "Use of remote file copy to transfer tools between systems",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Multi-stage channels using different protocols for each stage",
+    "sentence2": "The threat actor engaged in multi-stage channels using different protocols for each stage",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed screen capture to record user activities and sensitive information as part of the attack chain",
+    "sentence2": "Collection of data from removable media when connected",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Use of alternate data streams to hide data in NTFS file systems",
+    "sentence2": "Email collection from mail servers and client applications",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack group systematically extracted customer databases containing personally identifiable information.",
+    "sentence2": "The adversary deployed clipboard monitoring malware to capture copied credentials and other sensitive data.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "BlackCat ransomware operators conducted extensive network scanning to identify vulnerable systems and critical data stores.",
+    "sentence2": "FIN7 implemented fileless malware that operated entirely in memory to avoid leaving traces on disk.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in data encoding using custom algorithms to obfuscate communication",
+    "sentence2": "Port knocking to hide open command and control channels",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests account manipulation by adding privileges to compromised accounts during the compromise",
+    "sentence2": "Browser extensions added to maintain access through web browsers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved exfiltration over physical medium like usb devices",
+    "sentence2": "Exfiltration over command and control channel to reduce footprint",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attackers used PowerShell scripts to enumerate and copy sensitive files from SharePoint document libraries.",
+    "sentence2": "The threat actor created a backdoored version of the corporate VPN client that was distributed to employees.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Evidence suggests audio capture from compromised meeting room systems to achieve their objectives",
+    "sentence2": "Screen capture to record user activities and sensitive information",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Multi-stage channels using different protocols for each stage",
+    "sentence2": "Denial of service attacks against critical infrastructure",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The adversary manipulated database records to create fraudulent financial transactions.",
+    "sentence2": "Threat actors defaced the organization's website with politically motivated messages.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attackers placed malicious USB drives in the company parking lot, relying on employees to connect them to workstations.",
+    "sentence2": "The adversary exploited an insecure direct object reference in the web application to gain unauthorized access to user accounts.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of setuid and setgid bits on executable files",
+    "sentence2": "Use of signed binary proxy execution through legitimate tools",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The adversary installed a bootkit that infected the master boot record, ensuring persistence across OS reinstalls.",
+    "sentence2": "APT28 leveraged Windows Management Instrumentation (WMI) to execute malicious code remotely across the network.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attackers scheduled data exfiltration during business hours to blend with normal network activity.",
+    "sentence2": "Lazarus Group used compromised WordPress sites as proxies for their command and control infrastructure.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed password spraying attacks using common passwords indicating sophisticated actors",
+    "sentence2": "Kerberoasting to extract service account credentials",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Timestomping of files to hide modification times",
+    "sentence2": "The attack involved timestomping of files to hide modification times",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved exploitation of windows admin shares with valid credentials",
+    "sentence2": "Taint shared content with malicious payloads",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Password spraying attacks using common passwords",
+    "sentence2": "Active scanning of internal networks to map infrastructure",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Traffic signaling to start data exfiltration when safe",
+    "sentence2": "Exploitation of access token manipulation to elevate privileges",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Drive-by compromise through browser vulnerabilities",
+    "sentence2": "DLL search order hijacking to execute with elevated privileges",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed password spraying attacks using common passwords indicating sophisticated actors",
+    "sentence2": "Extraction of passwords from browser storage locations",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in registry run keys modification for automatic execution at startup during the compromise",
+    "sentence2": "Account manipulation by adding privileges to compromised accounts",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor exfiltrated data using authenticated proxies to appear as legitimate business traffic.",
+    "sentence2": "APT41 used custom multi-stage exfiltration tools that encoded and compressed data before transmission.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Threat actors exploited CVE-2021-26855, a Microsoft Exchange Server vulnerability, to gain unauthorized access to email accounts.",
+    "sentence2": "Cozy Bear (APT29) used the Microsoft Build Engine (MSBuild) to execute malicious code, bypassing application control.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "APT28 used spear-phishing emails with fake Microsoft login pages to capture Office 365 credentials.",
+    "sentence2": "Conti ransomware operators purchased access to already-compromised networks through an Initial Access Broker (IAB).",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in pass-the-hash attacks using stolen password hashes",
+    "sentence2": "Exploitation of internal spearphishing with malicious links",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed extraction of passwords from browser storage locations",
+    "sentence2": "Password spraying attacks using common passwords",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests phishing emails with malicious attachments targeting organization employees as part of the attack chain",
+    "sentence2": "External remote services exploitation using brute force techniques",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actors implemented DNS tunneling to exfiltrate data and receive commands without raising alerts.",
+    "sentence2": "FIN7 used multiple encrypted messaging channels for different phases of their operation.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "LAPSUS$ threat actors mapped out the victim's CI/CD pipeline to identify access points to source code repositories.",
+    "sentence2": "APT41 enumerated Active Directory to identify domain administrators and service accounts for lateral movement.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT29 deployed a custom version of Mimikatz to extract credentials from LSASS memory on compromised systems.",
+    "sentence2": "Lazarus Group operators exfiltrated data over alternative protocols like DNS and ICMP to evade controls.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs windows management instrumentation (wmi) for remote code execution",
+    "sentence2": "Execution via API calls to evade detection mechanisms",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary used steganography to hide stolen data in image files uploaded to public websites.",
+    "sentence2": "Threat actors compromised a trusted third-party vendor to exfiltrate data through an established connection.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed use of valid accounts obtained through credential stuffing attacks as part of the attack chain",
+    "sentence2": "Spear phishing links embedded in tailored emails to specific employees",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Fin7 threat actors added their malware to the Windows startup folder to ensure execution at system boot.",
+    "sentence2": "The attack group systematically extracted customer databases containing personally identifiable information.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "APT29 used spear-phishing emails with malicious links to harvest credentials and gain initial access to targeted organizations.",
+    "sentence2": "FIN7 sent targeted spear-phishing emails with malicious Microsoft Office attachments to employees in specific departments.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed file and directory discovery to locate sensitive information during the compromise",
+    "sentence2": "System service discovery to identify potential vulnerabilities",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT29 used Active Directory enumeration tools to map out the network structure and identify high-value targets.",
+    "sentence2": "LAPSUS$ threat actors mapped out the victim's CI/CD pipeline to identify access points to source code repositories.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Network share discovery to locate accessible data repositories",
+    "sentence2": "Supply chain compromise through third-party software providers",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Evidence suggests taint shared content with malicious payloads during the compromise",
+    "sentence2": "Exploitation of internal spearphishing with malicious links",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Query of registry to identify installed software and configurations",
+    "sentence2": "Use of valid accounts obtained through credential stuffing attacks",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved exploitation of windows admin shares with valid credentials",
+    "sentence2": "Use of remote services like RDP for internal network movement",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved port knocking to hide open command and control channels which was previously unreported",
+    "sentence2": "Fallback channels when primary communication is disrupted",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed data from cloud storage extracted using api access similar to known APT behaviors",
+    "sentence2": "Data from local systems gathered using scripts",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of shared webroot in web servers",
+    "sentence2": "Execution through module load to bypass application controls",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Analysts observed data from local systems gathered using scripts",
+    "sentence2": "Input capture through keylogging software",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed credential dumping from memory using mimikatz-like tools indicating sophisticated actors",
+    "sentence2": "Network sniffing to capture credentials transmitted in cleartext",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests network sniffing to capture credentials transmitted in cleartext",
+    "sentence2": "Forced authentication through fake SMB servers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT29 used encrypted ZIP archives to package stolen data before exfiltration to avoid detection.",
+    "sentence2": "APT29 used HTTPS with custom encryption to communicate with command and control servers, blending with normal traffic.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Collection of data from removable media when connected",
+    "sentence2": "Creation of new services configured to execute at system boot",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Taint shared content with malicious payloads",
+    "sentence2": "Use of steganography to hide data in images or audio files",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in modification of startup folder with malicious executables indicating sophisticated actors",
+    "sentence2": "Account manipulation by adding privileges to compromised accounts",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved browser bookmark discovery to gather intelligence on interests",
+    "sentence2": "File and directory discovery to locate sensitive information",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Disk wipe attacks targeting master boot records",
+    "sentence2": "The malware performs disk wipe attacks targeting master boot records",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved use of steganography to hide data in images or audio files",
+    "sentence2": "Exfiltration over command and control channel to reduce footprint",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed indicator removal through log clearing and file deletion to achieve their objectives",
+    "sentence2": "Use of alternate data streams to hide data in NTFS file systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests manipulation of network traffic to disrupt operations bypassing standard security measures",
+    "sentence2": "Data destruction through secure deletion techniques",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The Lazarus Group compromised legitimate websites frequently visited by employees (strategic web compromise) to establish initial access.",
+    "sentence2": "APT41 leveraged custom malware to capture screenshots when specific banking applications were opened.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attackers used internal spear-phishing emails sent from compromised accounts to infect additional users.",
+    "sentence2": "The attackers examined browser history and bookmarks to identify frequently accessed internal applications.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The CARBON SPIDER group used token manipulation to duplicate access tokens of high-privilege processes.",
+    "sentence2": "Lazarus Group operators implemented timestomping to change file timestamps and avoid forensic detection.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor employed audio capture malware to record sensitive conversations in meeting rooms.",
+    "sentence2": "LAPSUS$ exfiltrated source code repositories after compromising development environments.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Collection of data from removable media when connected",
+    "sentence2": "System service discovery to identify potential vulnerabilities",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Manipulation of network traffic to disrupt operations",
+    "sentence2": "Traffic signaling to start data exfiltration when safe",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Code signing certificates used to sign malicious executables",
+    "sentence2": "The attack involved code signing certificates used to sign malicious executables as part of the attack chain",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor employed audio capture malware to record sensitive conversations in meeting rooms.",
+    "sentence2": "Conti ransomware operators purchased access to already-compromised networks through an Initial Access Broker (IAB).",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Analysts observed email collection from mail servers and client applications during the compromise",
+    "sentence2": "Audio capture from compromised meeting room systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor used stolen credentials to make unauthorized wire transfers to overseas accounts.",
+    "sentence2": "The threat actor deployed wiper malware that corrupted the master boot record on critical systems.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT29 used legitimate remote access tools like RDP and VNC to move laterally through the compromised environment.",
+    "sentence2": "Threat actors exploited Kerberos delegation to move between systems while maintaining privileged access.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests brute force attacks against authentication systems bypassing standard security measures",
+    "sentence2": "Password spraying attacks using common passwords",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary deployed clipboard monitoring malware to capture copied credentials and other sensitive data.",
+    "sentence2": "The threat actor employed audio capture malware to record sensitive conversations in meeting rooms.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in execution via api calls to evade detection mechanisms similar to known APT behaviors",
+    "sentence2": "Scheduled task creation to maintain persistence",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in exploitation of public-facing applications with known vulnerabilities",
+    "sentence2": "Drive-by compromise through browser vulnerabilities",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed data from cloud storage extracted using api access bypassing standard security measures",
+    "sentence2": "Audio capture from compromised meeting room systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Modification of startup folder with malicious executables",
+    "sentence2": "The threat actor engaged in modification of startup folder with malicious executables similar to known APT behaviors",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved dynamic data exchange protocol exploitation in office documents to achieve their objectives",
+    "sentence2": "Execution through module load to bypass application controls",
+    "label": 1.0
+  },
+  {
+    "sentence1": "FIN7 group leveraged WMI and PowerShell remoting to execute commands on remote systems for lateral movement.",
+    "sentence2": "APT41 utilized legitimate systems management software to deploy malware across the network.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT41 executed encoded PowerShell commands to download additional payloads while evading detection systems.",
+    "sentence2": "Cozy Bear (APT29) used the Microsoft Build Engine (MSBuild) to execute malicious code, bypassing application control.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attackers modified source code in the CI/CD pipeline, introducing subtle vulnerabilities in the product.",
+    "sentence2": "The threat actor used stolen credentials to make unauthorized wire transfers to overseas accounts.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of shared webroot in web servers",
+    "sentence2": "Analysts observed exploitation of shared webroot in web servers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests use of alternate authentication material like ssh keys during the compromise",
+    "sentence2": "Exploitation of Windows Admin Shares with valid credentials",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT41 used living-off-the-land binaries (LOLBins) like certutil.exe to download payloads and evade detection.",
+    "sentence2": "The threat actor leveraged signed binaries to proxy execution of malicious payloads, bypassing application whitelisting.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attackers employed binary padding techniques to modify hash values and evade signature-based detection.",
+    "sentence2": "NOBELIUM used obfuscated JavaScript and PowerShell to hide malicious code from security analysis tools.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data encryption for ransom using sophisticated ransomware",
+    "sentence2": "Password spraying attacks using common passwords",
+    "label": 0.0
+  },
+  {
+    "sentence1": "HAFNIUM threat actors exploited trust relationships between servers to move laterally to additional Exchange servers.",
+    "sentence2": "The threat actor exploited the ZeroLogon vulnerability to move laterally through the domain and compromise additional systems.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed extraction of passwords from browser storage locations",
+    "sentence2": "Forced authentication through fake SMB servers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "NotPetya malware spread rapidly through the network, rendering systems inoperable across multiple continents.",
+    "sentence2": "Threat actors defaced the organization's website with politically motivated messages.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed scheduled task manipulation to gain system-level privileges",
+    "sentence2": "DLL search order hijacking to execute with elevated privileges",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor encrypted command and control traffic using a custom algorithm to evade network monitoring.",
+    "sentence2": "The threat actors implemented DNS tunneling to exfiltrate data and receive commands without raising alerts.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Screen capture to record user activities and sensitive information",
+    "sentence2": "Security logs showed screen capture to record user activities and sensitive information",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Pass-the-hash attacks using stolen password hashes",
+    "sentence2": "Exploitation of rootkits to hide implants and backdoors",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed forced authentication through fake smb servers during the compromise",
+    "sentence2": "Credential dumping from memory using Mimikatz-like tools",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Threat actors exploited CVE-2021-26855, a Microsoft Exchange Server vulnerability, to gain unauthorized access to email accounts.",
+    "sentence2": "The CARBON SPIDER group used token manipulation to duplicate access tokens of high-privilege processes.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in denial of service attacks against critical infrastructure indicating sophisticated actors",
+    "sentence2": "Defacement of websites to demonstrate compromise",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs data compressed before exfiltration to reduce transfer size",
+    "sentence2": "Use of steganography to hide data in images or audio files",
+    "label": 1.0
+  },
+  {
+    "sentence1": "LAPSUS$ used specialized tools to compress and encrypt stolen source code before exfiltration.",
+    "sentence2": "The attackers used legitimate cloud storage services to exfiltrate data, appearing as normal business activity.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT41 utilized legitimate systems management software to deploy malware across the network.",
+    "sentence2": "Threat actors exploited Kerberos delegation to move between systems while maintaining privileged access.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed exploitation of shared webroot in web servers during the compromise",
+    "sentence2": "Pass-the-hash attacks using stolen password hashes",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor leveraged signed binaries to proxy execution of malicious payloads, bypassing application whitelisting.",
+    "sentence2": "NOBELIUM used obfuscated JavaScript and PowerShell to hide malicious code from security analysis tools.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed bits jobs created to maintain persistence and evade detection",
+    "sentence2": "Scheduled tasks added to maintain access after system reboots",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Windows Management Instrumentation (WMI) for remote code execution",
+    "sentence2": "Application window discovery to identify running applications",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The adversary deployed clipboard monitoring malware to capture copied credentials and other sensitive data.",
+    "sentence2": "LAPSUS$ exfiltrated source code repositories after compromising development environments.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor used scheduled tasks to execute malware during system startup, ensuring persistence.",
+    "sentence2": "Lazarus Group used compromised WordPress sites as proxies for their command and control infrastructure.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actors implemented DNS tunneling to exfiltrate data and receive commands without raising alerts.",
+    "sentence2": "The threat actor deployed wiper malware that corrupted the master boot record on critical systems.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attackers placed malicious USB drives in the company parking lot, relying on employees to connect them to workstations.",
+    "sentence2": "The threat actors executed PowerShell scripts to discover running processes, installed applications, and system services.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "NotPetya malware spread rapidly through the network, rendering systems inoperable across multiple continents.",
+    "sentence2": "The adversary implemented domain fronting techniques to disguise malicious traffic as legitimate web services.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Query of registry to identify installed software and configurations",
+    "sentence2": "Timestomping of files to hide modification times",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Sandworm used PowerShell Empire for command and control after exploiting the initial vulnerability.",
+    "sentence2": "Cozy Bear (APT29) used the Microsoft Build Engine (MSBuild) to execute malicious code, bypassing application control.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Query of registry to identify installed software and configurations",
+    "sentence2": "Data destruction through secure deletion techniques",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Traffic signaling to activate dormant implants",
+    "sentence2": "The malware performs traffic signaling to activate dormant implants during the compromise",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved external remote services exploitation using brute force techniques",
+    "sentence2": "Phishing emails with malicious attachments targeting organization employees",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attackers manipulated SCADA systems controlling industrial equipment, causing physical damage.",
+    "sentence2": "NotPetya malware spread rapidly through the network, rendering systems inoperable across multiple continents.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed unsecured credential storage exploitation in configuration files",
+    "sentence2": "Brute force attacks against authentication systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Query of registry to identify installed software and configurations",
+    "sentence2": "Traffic signaling to activate dormant implants",
+    "label": 0.0
+  },
+  {
+    "sentence1": "APT28 leveraged Windows Management Instrumentation (WMI) to execute malicious code remotely across the network.",
+    "sentence2": "The attackers exploited Windows COM Hijacking to execute malicious DLLs when legitimate applications were launched.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs hardware additions like usb devices planted in physical locations",
+    "sentence2": "Supply chain compromise through third-party software providers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor employed audio capture malware to record sensitive conversations in meeting rooms.",
+    "sentence2": "The threat actor used valid accounts obtained through credential stuffing attacks against the organization's VPN solution.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Exploitation of rootkits to hide implants and backdoors",
+    "sentence2": "Scheduled tasks added to maintain access after system reboots",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Exploitation of rootkits to hide implants and backdoors",
+    "sentence2": "Browser extensions added to maintain access through web browsers",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Command-line interface usage to run unauthorized commands",
+    "sentence2": "Hardware additions like USB devices planted in physical locations",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor encrypted command and control traffic using a custom algorithm to evade network monitoring.",
+    "sentence2": "APT28 leveraged Windows Management Instrumentation (WMI) to execute malicious code remotely across the network.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Phishing emails with malicious attachments targeting organization employees",
+    "sentence2": "Disabling security tools through registry modifications",
+    "label": 0.0
+  },
+  {
+    "sentence1": "NOBELIUM used obfuscated JavaScript and PowerShell to hide malicious code from security analysis tools.",
+    "sentence2": "The attackers employed binary padding techniques to modify hash values and evade signature-based detection.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attackers installed browser extensions that intercepted authentication traffic and stole session cookies.",
+    "sentence2": "FIN7 used keyloggers to capture credentials as users typed them, including those for financial systems.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in automated collection of sensitive documents",
+    "sentence2": "Screen capture to record user activities and sensitive information",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Scheduled transfer of data during off-hours to avoid detection",
+    "sentence2": "Drive-by compromise through browser vulnerabilities",
+    "label": 0.0
+  },
+  {
+    "sentence1": "FIN7 group leveraged WMI and PowerShell remoting to execute commands on remote systems for lateral movement.",
+    "sentence2": "APT29 used steganography to hide malicious code within legitimate PNG image files to evade detection.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attackers utilized scheduled polling intervals with jitter to avoid detection of regular communication patterns.",
+    "sentence2": "APT41 used steganography to hide command and control instructions within image files posted to social media.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs windows management instrumentation (wmi) for remote code execution during the compromise",
+    "sentence2": "PowerShell scripts executed to run malicious commands",
+    "label": 1.0
+  },
+  {
+    "sentence1": "HAFNIUM exploited credential caches stored on Exchange servers after the initial compromise.",
+    "sentence2": "The attackers manipulated SCADA systems controlling industrial equipment, causing physical damage.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Analysts observed account manipulation by adding privileges to compromised accounts which was previously unreported",
+    "sentence2": "Scheduled tasks added to maintain access after system reboots",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT29 modified registry run keys to maintain persistence across system reboots.",
+    "sentence2": "The threat actor created a backdoored version of the corporate VPN client that was distributed to employees.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attackers used pass-the-hash techniques with stolen NTLM hashes to authenticate to remote systems.",
+    "sentence2": "The threat actor encrypted command and control traffic using a custom algorithm to evade network monitoring.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Bootkit installation to survive operating system reinstallation",
+    "sentence2": "Exploitation of access token manipulation to elevate privileges",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Timestomping of files to hide modification times",
+    "sentence2": "Password spraying attacks using common passwords",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Lazarus Group operators implemented timestomping to change file timestamps and avoid forensic detection.",
+    "sentence2": "APT41 used custom multi-stage exfiltration tools that encoded and compressed data before transmission.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Evidence suggests data encryption for ransom using sophisticated ransomware",
+    "sentence2": "Resource hijacking for cryptocurrency mining",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT29 used spear-phishing emails with malicious links to harvest credentials and gain initial access to targeted organizations.",
+    "sentence2": "The adversary exploited an insecure direct object reference in the web application to gain unauthorized access to user accounts.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Threat actors exploited CVE-2021-26855, a Microsoft Exchange Server vulnerability, to gain unauthorized access to email accounts.",
+    "sentence2": "The adversary exploited an insecure direct object reference in the web application to gain unauthorized access to user accounts.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed unsecured credential storage exploitation in configuration files as part of the attack chain",
+    "sentence2": "Kerberoasting to extract service account credentials",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of public-facing applications with known vulnerabilities",
+    "sentence2": "Execution via API calls to evade detection mechanisms",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved exploitation of access token manipulation to elevate privileges",
+    "sentence2": "Exploitation of setuid and setgid bits on executable files",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Use of valid accounts obtained through credential stuffing attacks",
+    "sentence2": "Analysts observed use of valid accounts obtained through credential stuffing attacks as part of the attack chain",
+    "label": 1.0
+  },
+  {
+    "sentence1": "BlackCat ransomware operators conducted extensive network scanning to identify vulnerable systems and critical data stores.",
+    "sentence2": "The attackers placed malicious USB drives in the company parking lot, relying on employees to connect them to workstations.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Analysts observed process injection to execute code in the context of another process",
+    "sentence2": "Abuse of sudo privileges through configuration weaknesses",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Conti ransomware operators used SMB to spread malware to other systems across the network.",
+    "sentence2": "Conti ransomware operators purchased access to already-compromised networks through an Initial Access Broker (IAB).",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed forced authentication through fake smb servers during the compromise",
+    "sentence2": "Kerberoasting to extract service account credentials",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Cozy Bear (APT29) used the Microsoft Build Engine (MSBuild) to execute malicious code, bypassing application control.",
+    "sentence2": "The attackers exploited Windows COM Hijacking to execute malicious DLLs when legitimate applications were launched.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed extraction of passwords from browser storage locations indicating sophisticated actors",
+    "sentence2": "Credential dumping from memory using Mimikatz-like tools",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary exploited an insecure direct object reference in the web application to gain unauthorized access to user accounts.",
+    "sentence2": "Conti ransomware operators purchased access to already-compromised networks through an Initial Access Broker (IAB).",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed traffic signaling to start data exfiltration when safe similar to known APT behaviors",
+    "sentence2": "Exfiltration over command and control channel to reduce footprint",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed forced authentication through fake smb servers to achieve their objectives",
+    "sentence2": "Kerberoasting to extract service account credentials",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified use of signed binary proxy execution through legitimate tools which was previously unreported",
+    "sentence2": "Command-line interface usage to run unauthorized commands",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed unsecured credential storage exploitation in configuration files",
+    "sentence2": "Credential dumping from memory using Mimikatz-like tools",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed unsecured credential storage exploitation in configuration files as part of the attack chain",
+    "sentence2": "Password spraying attacks using common passwords",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests network share discovery to locate accessible data repositories",
+    "sentence2": "File and directory discovery to locate sensitive information",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Process injection to execute code in the context of another process",
+    "sentence2": "Indicator removal through log clearing and file deletion",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor encrypted command and control traffic using a custom algorithm to evade network monitoring.",
+    "sentence2": "The attackers utilized legitimate cloud services like GitHub and Dropbox for command and control communications.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs code signing certificates used to sign malicious executables",
+    "sentence2": "Indicator removal through log clearing and file deletion",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in execution via api calls to evade detection mechanisms similar to known APT behaviors",
+    "sentence2": "Command-line interface usage to run unauthorized commands",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed kerberoasting to extract service account credentials bypassing standard security measures",
+    "sentence2": "Extraction of passwords from browser storage locations",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Threat actors exploited Kerberos delegation to move between systems while maintaining privileged access.",
+    "sentence2": "The adversary used SSH to connect to remote Linux systems after obtaining valid credentials.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Threat actors executed malicious macros embedded in Excel spreadsheets that were opened by finance personnel.",
+    "sentence2": "The attackers exploited Windows COM Hijacking to execute malicious DLLs when legitimate applications were launched.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Use of remote file copy to transfer tools between systems",
+    "sentence2": "Windows Management Instrumentation (WMI) for remote code execution",
+    "label": 0.0
+  },
+  {
+    "sentence1": "APT28 leveraged Windows Management Instrumentation (WMI) to execute malicious code remotely across the network.",
+    "sentence2": "Sandworm used PowerShell Empire for command and control after exploiting the initial vulnerability.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved unsecured credential storage exploitation in configuration files indicating sophisticated actors",
+    "sentence2": "Network sniffing to capture credentials transmitted in cleartext",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Lazarus Group operators implemented timestomping to change file timestamps and avoid forensic detection.",
+    "sentence2": "The threat actor disabled Windows Defender by modifying registry keys, preventing detection of their malware.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Credential dumping from memory using Mimikatz-like tools",
+    "sentence2": "Firmware corruption to render systems inoperable",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Use of alternate authentication material like SSH keys",
+    "sentence2": "Exfiltration over physical medium like USB devices",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in exploitation of internal spearphishing with malicious links",
+    "sentence2": "Exploitation of Windows Admin Shares with valid credentials",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor used valid accounts obtained through credential stuffing attacks against the organization's VPN solution.",
+    "sentence2": "The attackers placed malicious USB drives in the company parking lot, relying on employees to connect them to workstations.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary used SSH to connect to remote Linux systems after obtaining valid credentials.",
+    "sentence2": "Conti ransomware operators used SMB to spread malware to other systems across the network.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified file and directory discovery to locate sensitive information to achieve their objectives",
+    "sentence2": "Application window discovery to identify running applications",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Creation of new services configured to execute at system boot",
+    "sentence2": "Domain fronting through trusted domains to hide traffic",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The adversary implemented domain fronting techniques to disguise malicious traffic as legitimate web services.",
+    "sentence2": "Conti ransomware operators used LaZagne to recover credentials stored in various applications on compromised hosts.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Conti ransomware operators encrypted critical databases with RSA-2048 after exfiltrating sensitive information.",
+    "sentence2": "The threat actor deployed wiper malware that corrupted the master boot record on critical systems.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified disabling security tools through registry modifications bypassing standard security measures",
+    "sentence2": "Indicator removal through log clearing and file deletion",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor created a backdoored version of the corporate VPN client that was distributed to employees.",
+    "sentence2": "Chinese state-sponsored actors created LSASS driver backdoors to maintain access to compromised systems.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Encrypted data exfiltration using custom encryption schemes",
+    "sentence2": "Registry run keys modification for automatic execution at startup",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed application layer protocol use for command channel which was previously unreported",
+    "sentence2": "Fallback channels when primary communication is disrupted",
+    "label": 1.0
+  },
+  {
+    "sentence1": "FIN7 sent targeted spear-phishing emails with malicious Microsoft Office attachments to employees in specific departments.",
+    "sentence2": "Threat actors exploited Kerberos delegation to move between systems while maintaining privileged access.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor used valid accounts obtained through credential stuffing attacks against the organization's VPN solution.",
+    "sentence2": "APT29 used spear-phishing emails with malicious links to harvest credentials and gain initial access to targeted organizations.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Threat actors executed malicious macros embedded in Excel spreadsheets that were opened by finance personnel.",
+    "sentence2": "The threat actor used scheduled tasks to execute malware during system startup, ensuring persistence.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "FIN7 implemented fileless malware that operated entirely in memory to avoid leaving traces on disk.",
+    "sentence2": "NOBELIUM used obfuscated JavaScript and PowerShell to hide malicious code from security analysis tools.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT29 used steganography to hide malicious code within legitimate PNG image files to evade detection.",
+    "sentence2": "Lazarus Group operators implemented timestomping to change file timestamps and avoid forensic detection.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs external remote services exploitation using brute force techniques",
+    "sentence2": "Supply chain compromise through third-party software providers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor created a backdoored version of the corporate VPN client that was distributed to employees.",
+    "sentence2": "The Lazarus Group utilized scheduled tasks to execute malware at specific time intervals or system events.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs windows management instrumentation (wmi) for remote code execution similar to known APT behaviors",
+    "sentence2": "Scheduled task creation to maintain persistence",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor extracted credentials from Group Policy Preference files stored on the domain controller.",
+    "sentence2": "The attackers modified source code in the CI/CD pipeline, introducing subtle vulnerabilities in the product.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor extracted credentials from Group Policy Preference files stored on the domain controller.",
+    "sentence2": "The Lazarus Group performed NTLM relay attacks to capture and replay authentication hashes across the network.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified forced authentication through fake smb servers as part of the attack chain",
+    "sentence2": "Password spraying attacks using common passwords",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Timestomping of files to hide modification times",
+    "sentence2": "Pass-the-hash attacks using stolen password hashes",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Command-line interface usage to run unauthorized commands",
+    "sentence2": "Collection of data from removable media when connected",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified exfiltration over physical medium like usb devices similar to known APT behaviors",
+    "sentence2": "Scheduled transfer of data during off-hours to avoid detection",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in exploitation of internal spearphishing with malicious links",
+    "sentence2": "Pass-the-hash attacks using stolen password hashes",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT41 used living-off-the-land binaries (LOLBins) like certutil.exe to download payloads and evade detection.",
+    "sentence2": "NOBELIUM used obfuscated JavaScript and PowerShell to hide malicious code from security analysis tools.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "BlackCat ransomware operators used Group Policy to deploy and execute their payloads across the network.",
+    "sentence2": "FIN7 exfiltrated credit card data in small chunks over several days to avoid triggering data loss prevention tools.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Domain fronting through trusted domains to hide traffic",
+    "sentence2": "Scheduled task creation to maintain persistence",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Account enumeration to find valid user accounts",
+    "sentence2": "Phishing emails with malicious attachments targeting organization employees",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Port knocking techniques to hide open ports from scans",
+    "sentence2": "Account manipulation by adding privileges to compromised accounts",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor extracted credentials from Group Policy Preference files stored on the domain controller.",
+    "sentence2": "The attackers performed UAC bypass using the Fodhelper technique to execute code with elevated privileges.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs data compressed before exfiltration to reduce transfer size",
+    "sentence2": "Data transfer through alternative protocols like DNS or ICMP",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs disk wipe attacks targeting master boot records similar to known APT behaviors",
+    "sentence2": "Data encryption for ransom using sophisticated ransomware",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests data encoding using custom algorithms to obfuscate communication",
+    "sentence2": "Port knocking to hide open command and control channels",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary implemented domain fronting techniques to disguise malicious traffic as legitimate web services.",
+    "sentence2": "NOBELIUM implemented a multi-layer command and control infrastructure with several fallback mechanisms.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "HAFNIUM threat actors exploited trust relationships between servers to move laterally to additional Exchange servers.",
+    "sentence2": "FIN7 group leveraged WMI and PowerShell remoting to execute commands on remote systems for lateral movement.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed bypass of user account control through known vulnerabilities",
+    "sentence2": "Exploitation of vulnerable kernel drivers for privilege escalation",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved port knocking to hide open command and control channels which was previously unreported",
+    "sentence2": "Domain fronting through trusted domains to hide traffic",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved encrypted data exfiltration using custom encryption schemes",
+    "sentence2": "Scheduled transfer of data during off-hours to avoid detection",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT29 used HTTPS with custom encryption to communicate with command and control servers, blending with normal traffic.",
+    "sentence2": "The adversary deleted Windows Event Logs to cover their tracks after successful exploitation.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Threat actors installed keyloggers specifically targeting developers with access to proprietary code.",
+    "sentence2": "APT41 leveraged custom malware to capture screenshots when specific banking applications were opened.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs pass-the-hash attacks using stolen password hashes",
+    "sentence2": "Use of remote file copy to transfer tools between systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Email collection from mail servers and client applications",
+    "sentence2": "Security logs showed email collection from mail servers and client applications",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs taint shared content with malicious payloads according to incident responders",
+    "sentence2": "Exploitation of Windows Admin Shares with valid credentials",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The adversary deleted Windows Event Logs to cover their tracks after successful exploitation.",
+    "sentence2": "The attackers examined browser history and bookmarks to identify frequently accessed internal applications.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "File and directory discovery to locate sensitive information",
+    "sentence2": "Credential dumping from memory using Mimikatz-like tools",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified exploitation of vulnerable kernel drivers for privilege escalation",
+    "sentence2": "Abuse of sudo privileges through configuration weaknesses",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Scheduled task creation to maintain persistence",
+    "sentence2": "Exploitation of access token manipulation to elevate privileges",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Denial of service attacks against critical infrastructure",
+    "sentence2": "Domain fronting through trusted domains to hide traffic",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Lazarus Group used compromised WordPress sites as proxies for their command and control infrastructure.",
+    "sentence2": "The attackers performed UAC bypass using the Fodhelper technique to execute code with elevated privileges.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved exfiltration over physical medium like usb devices",
+    "sentence2": "Data transfer through alternative protocols like DNS or ICMP",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Drive-by compromise through browser vulnerabilities",
+    "sentence2": "Forensic analysis identified drive-by compromise through browser vulnerabilities as part of the attack chain",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed exfiltration over command and control channel to reduce footprint",
+    "sentence2": "Data transfer through alternative protocols like DNS or ICMP",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Threat actors exploited CVE-2021-26855, a Microsoft Exchange Server vulnerability, to gain unauthorized access to email accounts.",
+    "sentence2": "The attackers utilized legitimate cloud services like GitHub and Dropbox for command and control communications.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "APT41 executed encoded PowerShell commands to download additional payloads while evading detection systems.",
+    "sentence2": "The attackers used internal spear-phishing emails sent from compromised accounts to infect additional users.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Email collection from mail servers and client applications",
+    "sentence2": "External remote services exploitation using brute force techniques",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Network share discovery to locate accessible data repositories",
+    "sentence2": "Data destruction through secure deletion techniques",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Traffic signaling to start data exfiltration when safe",
+    "sentence2": "Use of valid accounts obtained through credential stuffing attacks",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Multi-stage channels using different protocols for each stage",
+    "sentence2": "Code signing certificates used to sign malicious executables",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attackers performed UAC bypass using the Fodhelper technique to execute code with elevated privileges.",
+    "sentence2": "The threat actor extracted credentials from Group Policy Preference files stored on the domain controller.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor disabled Windows Defender by modifying registry keys, preventing detection of their malware.",
+    "sentence2": "FIN7 implemented fileless malware that operated entirely in memory to avoid leaving traces on disk.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Fallback channels when primary communication is disrupted",
+    "sentence2": "Exploitation of vulnerable kernel drivers for privilege escalation",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Evidence suggests exploitation of rootkits to hide implants and backdoors",
+    "sentence2": "Timestomping of files to hide modification times",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actors implemented DNS tunneling to exfiltrate data and receive commands without raising alerts.",
+    "sentence2": "The threat actor used valid accounts obtained through credential stuffing attacks against the organization's VPN solution.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Extraction of passwords from browser storage locations",
+    "sentence2": "Exfiltration over physical medium like USB devices",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Denial of service attacks against critical infrastructure",
+    "sentence2": "Use of remote services like RDP for internal network movement",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Security logs showed traffic signaling to start data exfiltration when safe during the compromise",
+    "sentence2": "Scheduled transfer of data during off-hours to avoid detection",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor exploited the ZeroLogon vulnerability to move laterally through the domain and compromise additional systems.",
+    "sentence2": "The adversary used SSH to connect to remote Linux systems after obtaining valid credentials.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "FIN7 used keyloggers to capture credentials as users typed them, including those for financial systems.",
+    "sentence2": "APT28 used spear-phishing emails with fake Microsoft login pages to capture Office 365 credentials.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Maze ransomware operators used automated tools to identify and collect sensitive documents before encryption.",
+    "sentence2": "The attackers used PowerShell scripts to enumerate and copy sensitive files from SharePoint document libraries.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The SideWinder APT group used JavaScript to execute a series of payloads that ultimately led to a backdoor.",
+    "sentence2": "APT29 used steganography to hide malicious code within legitimate PNG image files to evade detection.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Threat actors exploited CVE-2021-26855, a Microsoft Exchange Server vulnerability, to gain unauthorized access to email accounts.",
+    "sentence2": "Conti ransomware operators purchased access to already-compromised networks through an Initial Access Broker (IAB).",
+    "label": 1.0
+  },
+  {
+    "sentence1": "FIN7 exfiltrated credit card data in small chunks over several days to avoid triggering data loss prevention tools.",
+    "sentence2": "APT29 used encrypted ZIP archives to package stolen data before exfiltration to avoid detection.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed traffic signaling to activate dormant implants to achieve their objectives",
+    "sentence2": "Use of web service APIs for command and control",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor harvested browser-saved passwords from Chrome and Firefox profiles on compromised workstations.",
+    "sentence2": "The attackers used PowerShell scripts to enumerate and copy sensitive files from SharePoint document libraries.",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified use of signed binary proxy execution through legitimate tools during the compromise",
+    "sentence2": "Command-line interface usage to run unauthorized commands",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs creation of new services configured to execute at system boot to achieve their objectives",
+    "sentence2": "Modification of startup folder with malicious executables",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of access token manipulation to elevate privileges",
+    "sentence2": "Indicator removal through log clearing and file deletion",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed dynamic data exchange protocol exploitation in office documents",
+    "sentence2": "Command-line interface usage to run unauthorized commands",
+    "label": 1.0
+  },
+  {
+    "sentence1": "APT32 utilized PowerShell to enumerate cloud service configuration settings and security policies.",
+    "sentence2": "Threat actors performed DNS zone transfers to map internal network resources and identify additional targets.",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of shared webroot in web servers",
+    "sentence2": "Windows Management Instrumentation (WMI) for remote code execution",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs disk wipe attacks targeting master boot records similar to known APT behaviors",
+    "sentence2": "Firmware corruption to render systems inoperable",
+    "label": 1.0
+  }
+]

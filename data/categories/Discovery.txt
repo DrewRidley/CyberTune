@@ -1,0 +1,32 @@
+Active scanning of internal networks to map infrastructure
+The threat actor engaged in active scanning of internal networks to map infrastructure
+Forensic analysis identified active scanning of internal networks to map infrastructure which was previously unreported
+The malware performs active scanning of internal networks to map infrastructure
+System service discovery to identify potential vulnerabilities
+Evidence suggests system service discovery to identify potential vulnerabilities
+Evidence suggests system service discovery to identify potential vulnerabilities
+Analysts observed system service discovery to identify potential vulnerabilities bypassing standard security measures
+Account enumeration to find valid user accounts
+The threat actor engaged in account enumeration to find valid user accounts which was previously unreported
+The threat actor engaged in account enumeration to find valid user accounts bypassing standard security measures
+Security logs showed account enumeration to find valid user accounts
+Application window discovery to identify running applications
+Security logs showed application window discovery to identify running applications
+Evidence suggests application window discovery to identify running applications
+Investigation revealed application window discovery to identify running applications
+Browser bookmark discovery to gather intelligence on interests
+Security logs showed browser bookmark discovery to gather intelligence on interests to achieve their objectives
+Investigation revealed browser bookmark discovery to gather intelligence on interests according to incident responders
+Forensic analysis identified browser bookmark discovery to gather intelligence on interests during the compromise
+File and directory discovery to locate sensitive information
+The malware performs file and directory discovery to locate sensitive information during the compromise
+Analysts observed file and directory discovery to locate sensitive information according to incident responders
+Analysts observed file and directory discovery to locate sensitive information to achieve their objectives
+Query of registry to identify installed software and configurations
+Evidence suggests query of registry to identify installed software and configurations
+Analysts observed query of registry to identify installed software and configurations
+Security logs showed query of registry to identify installed software and configurations
+Network share discovery to locate accessible data repositories
+Evidence suggests network share discovery to locate accessible data repositories
+Investigation revealed network share discovery to locate accessible data repositories
+Security logs showed network share discovery to locate accessible data repositories

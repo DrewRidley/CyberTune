@@ -1,0 +1,122 @@
+{
+  "Initial Access": [
+    "Phishing emails with malicious attachments targeting organization employees",
+    "Exploitation of public-facing applications with known vulnerabilities",
+    "Use of valid accounts obtained through credential stuffing attacks",
+    "Supply chain compromise through third-party software providers",
+    "Spear phishing links embedded in tailored emails to specific employees",
+    "Drive-by compromise through browser vulnerabilities",
+    "External remote services exploitation using brute force techniques",
+    "Hardware additions like USB devices planted in physical locations"
+  ],
+  "Execution": [
+    "PowerShell scripts executed to run malicious commands",
+    "Command-line interface usage to run unauthorized commands",
+    "Scheduled task creation to maintain persistence",
+    "Windows Management Instrumentation (WMI) for remote code execution",
+    "Dynamic data exchange protocol exploitation in Office documents",
+    "Execution via API calls to evade detection mechanisms",
+    "Use of signed binary proxy execution through legitimate tools",
+    "Execution through module load to bypass application controls"
+  ],
+  "Persistence": [
+    "Registry run keys modification for automatic execution at startup",
+    "Creation of new services configured to execute at system boot",
+    "Scheduled tasks added to maintain access after system reboots",
+    "Modification of startup folder with malicious executables",
+    "Account manipulation by adding privileges to compromised accounts",
+    "BITS jobs created to maintain persistence and evade detection",
+    "Bootkit installation to survive operating system reinstallation",
+    "Browser extensions added to maintain access through web browsers"
+  ],
+  "Privilege Escalation": [
+    "Exploitation of access token manipulation to elevate privileges",
+    "Bypass of user account control through known vulnerabilities",
+    "DLL search order hijacking to execute with elevated privileges",
+    "Exploitation of setuid and setgid bits on executable files",
+    "Abuse of sudo privileges through configuration weaknesses",
+    "Process injection to execute code in the context of another process",
+    "Scheduled task manipulation to gain system-level privileges",
+    "Exploitation of vulnerable kernel drivers for privilege escalation"
+  ],
+  "Defense Evasion": [
+    "Indicator removal through log clearing and file deletion",
+    "Timestomping of files to hide modification times",
+    "Binary padding to avoid hash-based detection mechanisms",
+    "Code signing certificates used to sign malicious executables",
+    "Disabling security tools through registry modifications",
+    "Exploitation of rootkits to hide implants and backdoors",
+    "Use of alternate data streams to hide data in NTFS file systems",
+    "Port knocking techniques to hide open ports from scans"
+  ],
+  "Credential Access": [
+    "Brute force attacks against authentication systems",
+    "Credential dumping from memory using Mimikatz-like tools",
+    "Extraction of passwords from browser storage locations",
+    "Network sniffing to capture credentials transmitted in cleartext",
+    "Password spraying attacks using common passwords",
+    "Kerberoasting to extract service account credentials",
+    "Unsecured credential storage exploitation in configuration files",
+    "Forced authentication through fake SMB servers"
+  ],
+  "Discovery": [
+    "Active scanning of internal networks to map infrastructure",
+    "System service discovery to identify potential vulnerabilities",
+    "Account enumeration to find valid user accounts",
+    "Application window discovery to identify running applications",
+    "Browser bookmark discovery to gather intelligence on interests",
+    "File and directory discovery to locate sensitive information",
+    "Query of registry to identify installed software and configurations",
+    "Network share discovery to locate accessible data repositories"
+  ],
+  "Lateral Movement": [
+    "Use of remote services like RDP for internal network movement",
+    "Exploitation of internal spearphishing with malicious links",
+    "Pass-the-hash attacks using stolen password hashes",
+    "Use of remote file copy to transfer tools between systems",
+    "Exploitation of shared webroot in web servers",
+    "Taint shared content with malicious payloads",
+    "Use of alternate authentication material like SSH keys",
+    "Exploitation of Windows Admin Shares with valid credentials"
+  ],
+  "Collection": [
+    "Audio capture from compromised meeting room systems",
+    "Automated collection of sensitive documents",
+    "Data from local systems gathered using scripts",
+    "Email collection from mail servers and client applications",
+    "Input capture through keylogging software",
+    "Screen capture to record user activities and sensitive information",
+    "Data from cloud storage extracted using API access",
+    "Collection of data from removable media when connected"
+  ],
+  "Command and Control": [
+    "Application layer protocol use for command channel",
+    "Domain fronting through trusted domains to hide traffic",
+    "Data encoding using custom algorithms to obfuscate communication",
+    "Fallback channels when primary communication is disrupted",
+    "Multi-stage channels using different protocols for each stage",
+    "Port knocking to hide open command and control channels",
+    "Use of web service APIs for command and control",
+    "Traffic signaling to activate dormant implants"
+  ],
+  "Exfiltration": [
+    "Data transfer through alternative protocols like DNS or ICMP",
+    "Exfiltration over physical medium like USB devices",
+    "Use of steganography to hide data in images or audio files",
+    "Scheduled transfer of data during off-hours to avoid detection",
+    "Exfiltration over command and control channel to reduce footprint",
+    "Data compressed before exfiltration to reduce transfer size",
+    "Encrypted data exfiltration using custom encryption schemes",
+    "Traffic signaling to start data exfiltration when safe"
+  ],
+  "Impact": [
+    "Data destruction through secure deletion techniques",
+    "Denial of service attacks against critical infrastructure",
+    "Disk wipe attacks targeting master boot records",
+    "Data encryption for ransom using sophisticated ransomware",
+    "Defacement of websites to demonstrate compromise",
+    "Resource hijacking for cryptocurrency mining",
+    "Manipulation of network traffic to disrupt operations",
+    "Firmware corruption to render systems inoperable"
+  ]
+}

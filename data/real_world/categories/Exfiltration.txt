@@ -1,0 +1,10 @@
+APT29 used encrypted ZIP archives to package stolen data before exfiltration to avoid detection.
+The threat actor exfiltrated data using authenticated proxies to appear as legitimate business traffic.
+Lazarus Group operators exfiltrated data over alternative protocols like DNS and ICMP to evade controls.
+The attackers scheduled data exfiltration during business hours to blend with normal network activity.
+FIN7 exfiltrated credit card data in small chunks over several days to avoid triggering data loss prevention tools.
+The adversary used steganography to hide stolen data in image files uploaded to public websites.
+Threat actors compromised a trusted third-party vendor to exfiltrate data through an established connection.
+APT41 used custom multi-stage exfiltration tools that encoded and compressed data before transmission.
+The attackers used legitimate cloud storage services to exfiltrate data, appearing as normal business activity.
+LAPSUS$ used specialized tools to compress and encrypt stolen source code before exfiltration.

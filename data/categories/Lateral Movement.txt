@@ -1,0 +1,32 @@
+Use of remote services like RDP for internal network movement
+The threat actor engaged in use of remote services like rdp for internal network movement to achieve their objectives
+Investigation revealed use of remote services like rdp for internal network movement
+The malware performs use of remote services like rdp for internal network movement similar to known APT behaviors
+Exploitation of internal spearphishing with malicious links
+The attack involved exploitation of internal spearphishing with malicious links
+The malware performs exploitation of internal spearphishing with malicious links
+Forensic analysis identified exploitation of internal spearphishing with malicious links as part of the attack chain
+Pass-the-hash attacks using stolen password hashes
+Security logs showed pass-the-hash attacks using stolen password hashes
+Investigation revealed pass-the-hash attacks using stolen password hashes
+Investigation revealed pass-the-hash attacks using stolen password hashes indicating sophisticated actors
+Use of remote file copy to transfer tools between systems
+Evidence suggests use of remote file copy to transfer tools between systems
+Evidence suggests use of remote file copy to transfer tools between systems according to incident responders
+The attack involved use of remote file copy to transfer tools between systems
+Exploitation of shared webroot in web servers
+The malware performs exploitation of shared webroot in web servers indicating sophisticated actors
+Evidence suggests exploitation of shared webroot in web servers to achieve their objectives
+Analysts observed exploitation of shared webroot in web servers indicating sophisticated actors
+Taint shared content with malicious payloads
+Investigation revealed taint shared content with malicious payloads
+Analysts observed taint shared content with malicious payloads during the compromise
+Security logs showed taint shared content with malicious payloads
+Use of alternate authentication material like SSH keys
+Investigation revealed use of alternate authentication material like ssh keys
+Analysts observed use of alternate authentication material like ssh keys bypassing standard security measures
+Security logs showed use of alternate authentication material like ssh keys bypassing standard security measures
+Exploitation of Windows Admin Shares with valid credentials
+Forensic analysis identified exploitation of windows admin shares with valid credentials during the compromise
+The malware performs exploitation of windows admin shares with valid credentials
+The malware performs exploitation of windows admin shares with valid credentials during the compromise

@@ -1,0 +1,32 @@
+Audio capture from compromised meeting room systems
+The threat actor engaged in audio capture from compromised meeting room systems which was previously unreported
+Forensic analysis identified audio capture from compromised meeting room systems
+Evidence suggests audio capture from compromised meeting room systems
+Automated collection of sensitive documents
+The threat actor engaged in automated collection of sensitive documents to achieve their objectives
+Analysts observed automated collection of sensitive documents which was previously unreported
+Security logs showed automated collection of sensitive documents bypassing standard security measures
+Data from local systems gathered using scripts
+Forensic analysis identified data from local systems gathered using scripts
+The threat actor engaged in data from local systems gathered using scripts
+The attack involved data from local systems gathered using scripts
+Email collection from mail servers and client applications
+Analysts observed email collection from mail servers and client applications
+Analysts observed email collection from mail servers and client applications similar to known APT behaviors
+The attack involved email collection from mail servers and client applications to achieve their objectives
+Input capture through keylogging software
+The threat actor engaged in input capture through keylogging software to achieve their objectives
+The threat actor engaged in input capture through keylogging software bypassing standard security measures
+The attack involved input capture through keylogging software during the compromise
+Screen capture to record user activities and sensitive information
+The threat actor engaged in screen capture to record user activities and sensitive information
+Analysts observed screen capture to record user activities and sensitive information which was previously unreported
+Evidence suggests screen capture to record user activities and sensitive information indicating sophisticated actors
+Data from cloud storage extracted using API access
+Security logs showed data from cloud storage extracted using api access to achieve their objectives
+Analysts observed data from cloud storage extracted using api access according to incident responders
+Analysts observed data from cloud storage extracted using api access to achieve their objectives
+Collection of data from removable media when connected
+The threat actor engaged in collection of data from removable media when connected
+Analysts observed collection of data from removable media when connected bypassing standard security measures
+Evidence suggests collection of data from removable media when connected

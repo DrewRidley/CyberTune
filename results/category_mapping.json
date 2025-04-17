@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "text": "The attackers used DNS tunneling to exfiltrate data and evade traditional network security controls.",
+      "category": "Exfiltration",
+      "matched_example": "Data transfer through alternative protocols like DNS or ICMP",
+      "similarity_score": 0.9007795453071594
+    },
+    {
+      "text": "Malicious actors planted USB devices in the parking lot for employees to find and connect to their work computers.",
+      "category": "Initial Access",
+      "matched_example": "Phishing emails with malicious attachments targeting organization employees",
+      "similarity_score": 0.8658829927444458
+    },
+    {
+      "text": "The threat group leveraged a zero-day vulnerability in the organization's VPN appliance to gain initial access.",
+      "category": "Initial Access",
+      "matched_example": "Use of valid accounts obtained through credential stuffing attacks",
+      "similarity_score": 0.7464293837547302
+    },
+    {
+      "text": "Command and control traffic was disguised as normal HTTPS traffic to trusted cloud services.",
+      "category": "Impact",
+      "matched_example": "Manipulation of network traffic to disrupt operations",
+      "similarity_score": 0.8451215624809265
+    },
+    {
+      "text": "The malware performed fileless execution by running entirely in memory without touching the disk.",
+      "category": "Impact",
+      "matched_example": "Disk wipe attacks targeting master boot records",
+      "similarity_score": 0.7341272830963135
+    },
+    {
+      "text": "Administrative credentials were harvested using a keylogger installed through a phishing campaign.",
+      "category": "Credential Access",
+      "matched_example": "Kerberoasting to extract service account credentials",
+      "similarity_score": 0.846576452255249
+    },
+    {
+      "text": "The attackers utilized living-off-the-land techniques, leveraging built-in Windows tools like PowerShell and WMI.",
+      "category": "Collection",
+      "matched_example": "Data from local systems gathered using scripts",
+      "similarity_score": 0.8525151014328003
+    },
+    {
+      "text": "After compromising the network, the threat actor established persistence through scheduled tasks that survived reboots.",
+      "category": "Persistence",
+      "matched_example": "BITS jobs created to maintain persistence and evade detection",
+      "similarity_score": 0.8904584646224976
+    },
+    {
+      "text": "The ransomware encrypted files with a hybrid algorithm combining RSA and AES for maximum impact.",
+      "category": "Impact",
+      "matched_example": "Data encryption for ransom using sophisticated ransomware",
+      "similarity_score": 0.8958966135978699
+    }
+  ]
+}

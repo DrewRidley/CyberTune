@@ -1,0 +1,1817 @@
+[
+  {
+    "sentence1": "Analysts observed exploitation of shared webroot in web servers",
+    "sentence2": "Use of remote services like RDP for internal network movement",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed spear phishing links embedded in tailored emails to specific employees bypassing standard security measures",
+    "sentence2": "Supply chain compromise through third-party software providers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "PowerShell scripts executed to run malicious commands",
+    "sentence2": "Domain fronting through trusted domains to hide traffic",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Analysts observed active scanning of internal networks to map infrastructure as part of the attack chain",
+    "sentence2": "File and directory discovery to locate sensitive information",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified exploitation of vulnerable kernel drivers for privilege escalation",
+    "sentence2": "Process injection to execute code in the context of another process",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests scheduled task creation to maintain persistence similar to known APT behaviors",
+    "sentence2": "Use of signed binary proxy execution through legitimate tools",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed traffic signaling to activate dormant implants to achieve their objectives",
+    "sentence2": "Multi-stage channels using different protocols for each stage",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in application window discovery to identify running applications",
+    "sentence2": "Query of registry to identify installed software and configurations",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs network share discovery to locate accessible data repositories indicating sophisticated actors",
+    "sentence2": "Account enumeration to find valid user accounts",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified port knocking techniques to hide open ports from scans",
+    "sentence2": "Binary padding to avoid hash-based detection mechanisms",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Scheduled tasks added to maintain access after system reboots",
+    "sentence2": "Query of registry to identify installed software and configurations",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Security logs showed email collection from mail servers and client applications",
+    "sentence2": "Data from local systems gathered using scripts",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed data from local systems gathered using scripts",
+    "sentence2": "Email collection from mail servers and client applications",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed exploitation of internal spearphishing with malicious links",
+    "sentence2": "Use of remote file copy to transfer tools between systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Application window discovery to identify running applications",
+    "sentence2": "Windows Management Instrumentation (WMI) for remote code execution",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved scheduled tasks added to maintain access after system reboots indicating sophisticated actors",
+    "sentence2": "Registry run keys modification for automatic execution at startup",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Screen capture to record user activities and sensitive information",
+    "sentence2": "Timestomping of files to hide modification times",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed account enumeration to find valid user accounts",
+    "sentence2": "Network share discovery to locate accessible data repositories",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Disabling security tools through registry modifications",
+    "sentence2": "Defacement of websites to demonstrate compromise",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in use of alternate data streams to hide data in ntfs file systems",
+    "sentence2": "Indicator removal through log clearing and file deletion",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in denial of service attacks against critical infrastructure indicating sophisticated actors",
+    "sentence2": "Data destruction through secure deletion techniques",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs disk wipe attacks targeting master boot records",
+    "sentence2": "Data destruction through secure deletion techniques",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Email collection from mail servers and client applications",
+    "sentence2": "Spear phishing links embedded in tailored emails to specific employees",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Firmware corruption to render systems inoperable",
+    "sentence2": "Dynamic data exchange protocol exploitation in Office documents",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs taint shared content with malicious payloads according to incident responders",
+    "sentence2": "Pass-the-hash attacks using stolen password hashes",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data transfer through alternative protocols like DNS or ICMP",
+    "sentence2": "Hardware additions like USB devices planted in physical locations",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved use of web service apis for command and control to achieve their objectives",
+    "sentence2": "Port knocking to hide open command and control channels",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Port knocking to hide open command and control channels",
+    "sentence2": "Code signing certificates used to sign malicious executables",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Hardware additions like USB devices planted in physical locations",
+    "sentence2": "Execution through module load to bypass application controls",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Account manipulation by adding privileges to compromised accounts",
+    "sentence2": "Exploitation of rootkits to hide implants and backdoors",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Use of alternate authentication material like SSH keys",
+    "sentence2": "Exploitation of public-facing applications with known vulnerabilities",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved use of alternate data streams to hide data in ntfs file systems indicating sophisticated actors",
+    "sentence2": "Indicator removal through log clearing and file deletion",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests network share discovery to locate accessible data repositories",
+    "sentence2": "System service discovery to identify potential vulnerabilities",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in disabling security tools through registry modifications",
+    "sentence2": "Indicator removal through log clearing and file deletion",
+    "label": 1.0
+  },
+  {
+    "sentence1": "DLL search order hijacking to execute with elevated privileges",
+    "sentence2": "Evidence suggests dll search order hijacking to execute with elevated privileges during the compromise",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of public-facing applications with known vulnerabilities",
+    "sentence2": "Denial of service attacks against critical infrastructure",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Disabling security tools through registry modifications",
+    "sentence2": "Multi-stage channels using different protocols for each stage",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed application layer protocol use for command channel which was previously unreported",
+    "sentence2": "Traffic signaling to activate dormant implants",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data encryption for ransom using sophisticated ransomware",
+    "sentence2": "Use of remote services like RDP for internal network movement",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Kerberoasting to extract service account credentials",
+    "sentence2": "Supply chain compromise through third-party software providers",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Encrypted data exfiltration using custom encryption schemes",
+    "sentence2": "Application window discovery to identify running applications",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in dll search order hijacking to execute with elevated privileges",
+    "sentence2": "Exploitation of access token manipulation to elevate privileges",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of vulnerable kernel drivers for privilege escalation",
+    "sentence2": "Manipulation of network traffic to disrupt operations",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved port knocking to hide open command and control channels which was previously unreported",
+    "sentence2": "Multi-stage channels using different protocols for each stage",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed disk wipe attacks targeting master boot records",
+    "sentence2": "Manipulation of network traffic to disrupt operations",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed dynamic data exchange protocol exploitation in office documents",
+    "sentence2": "Execution via API calls to evade detection mechanisms",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved indicator removal through log clearing and file deletion",
+    "sentence2": "Exploitation of rootkits to hide implants and backdoors",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in bits jobs created to maintain persistence and evade detection",
+    "sentence2": "Modification of startup folder with malicious executables",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved bits jobs created to maintain persistence and evade detection",
+    "sentence2": "Browser extensions added to maintain access through web browsers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests command-line interface usage to run unauthorized commands",
+    "sentence2": "PowerShell scripts executed to run malicious commands",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified port knocking techniques to hide open ports from scans",
+    "sentence2": "Disabling security tools through registry modifications",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in defacement of websites to demonstrate compromise similar to known APT behaviors",
+    "sentence2": "Disk wipe attacks targeting master boot records",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Dynamic data exchange protocol exploitation in Office documents",
+    "sentence2": "Traffic signaling to start data exfiltration when safe",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Browser extensions added to maintain access through web browsers",
+    "sentence2": "Query of registry to identify installed software and configurations",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified exfiltration over physical medium like usb devices similar to known APT behaviors",
+    "sentence2": "Data transfer through alternative protocols like DNS or ICMP",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Automated collection of sensitive documents",
+    "sentence2": "The threat actor engaged in automated collection of sensitive documents",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests taint shared content with malicious payloads during the compromise",
+    "sentence2": "Exploitation of shared webroot in web servers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Command-line interface usage to run unauthorized commands",
+    "sentence2": "Denial of service attacks against critical infrastructure",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in bits jobs created to maintain persistence and evade detection",
+    "sentence2": "Browser extensions added to maintain access through web browsers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed external remote services exploitation using brute force techniques bypassing standard security measures",
+    "sentence2": "Spear phishing links embedded in tailored emails to specific employees",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests timestomping of files to hide modification times",
+    "sentence2": "Use of alternate data streams to hide data in NTFS file systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in modification of startup folder with malicious executables indicating sophisticated actors",
+    "sentence2": "Browser extensions added to maintain access through web browsers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Audio capture from compromised meeting room systems",
+    "sentence2": "Account manipulation by adding privileges to compromised accounts",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Application layer protocol use for command channel",
+    "sentence2": "Email collection from mail servers and client applications",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Scheduled tasks added to maintain access after system reboots",
+    "sentence2": "The attack involved scheduled tasks added to maintain access after system reboots as part of the attack chain",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved exfiltration over physical medium like usb devices",
+    "sentence2": "Data compressed before exfiltration to reduce transfer size",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Browser extensions added to maintain access through web browsers",
+    "sentence2": "Forced authentication through fake SMB servers",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Analysts observed data from cloud storage extracted using api access similar to known APT behaviors",
+    "sentence2": "Automated collection of sensitive documents",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Disabling security tools through registry modifications",
+    "sentence2": "Network sniffing to capture credentials transmitted in cleartext",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Data destruction through secure deletion techniques",
+    "sentence2": "Indicator removal through log clearing and file deletion",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs exploitation of setuid and setgid bits on executable files which was previously unreported",
+    "sentence2": "Process injection to execute code in the context of another process",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Supply chain compromise through third-party software providers",
+    "sentence2": "Data transfer through alternative protocols like DNS or ICMP",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Exfiltration over command and control channel to reduce footprint",
+    "sentence2": "Investigation revealed exfiltration over command and control channel to reduce footprint",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed exploitation of windows admin shares with valid credentials",
+    "sentence2": "Exploitation of internal spearphishing with malicious links",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Audio capture from compromised meeting room systems",
+    "sentence2": "Exfiltration over physical medium like USB devices",
+    "label": 0.0
+  },
+  {
+    "sentence1": "PowerShell scripts executed to run malicious commands",
+    "sentence2": "Scheduled task manipulation to gain system-level privileges",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Automated collection of sensitive documents",
+    "sentence2": "Phishing emails with malicious attachments targeting organization employees",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in disabling security tools through registry modifications",
+    "sentence2": "Use of alternate data streams to hide data in NTFS file systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of access token manipulation to elevate privileges",
+    "sentence2": "The malware performs exploitation of access token manipulation to elevate privileges",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Use of remote file copy to transfer tools between systems",
+    "sentence2": "Application window discovery to identify running applications",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Exploitation of access token manipulation to elevate privileges",
+    "sentence2": "Active scanning of internal networks to map infrastructure",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Use of web service APIs for command and control",
+    "sentence2": "The attack involved use of web service apis for command and control which was previously unreported",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Spear phishing links embedded in tailored emails to specific employees",
+    "sentence2": "Analysts observed spear phishing links embedded in tailored emails to specific employees indicating sophisticated actors",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs screen capture to record user activities and sensitive information indicating sophisticated actors",
+    "sentence2": "Audio capture from compromised meeting room systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs drive-by compromise through browser vulnerabilities",
+    "sentence2": "External remote services exploitation using brute force techniques",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified disabling security tools through registry modifications bypassing standard security measures",
+    "sentence2": "Timestomping of files to hide modification times",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Use of valid accounts obtained through credential stuffing attacks",
+    "sentence2": "Exploitation of vulnerable kernel drivers for privilege escalation",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Analysts observed use of web service apis for command and control to achieve their objectives",
+    "sentence2": "Application layer protocol use for command channel",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in domain fronting through trusted domains to hide traffic during the compromise",
+    "sentence2": "Port knocking to hide open command and control channels",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs hardware additions like usb devices planted in physical locations",
+    "sentence2": "Exploitation of public-facing applications with known vulnerabilities",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in defacement of websites to demonstrate compromise bypassing standard security measures",
+    "sentence2": "Resource hijacking for cryptocurrency mining",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed abuse of sudo privileges through configuration weaknesses indicating sophisticated actors",
+    "sentence2": "DLL search order hijacking to execute with elevated privileges",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified data encryption for ransom using sophisticated ransomware",
+    "sentence2": "Firmware corruption to render systems inoperable",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data from cloud storage extracted using API access",
+    "sentence2": "Query of registry to identify installed software and configurations",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed kerberoasting to extract service account credentials",
+    "sentence2": "Extraction of passwords from browser storage locations",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Traffic signaling to activate dormant implants",
+    "sentence2": "Data compressed before exfiltration to reduce transfer size",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Automated collection of sensitive documents",
+    "sentence2": "Use of alternate authentication material like SSH keys",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed use of alternate authentication material like ssh keys",
+    "sentence2": "Pass-the-hash attacks using stolen password hashes",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data encoding using custom algorithms to obfuscate communication",
+    "sentence2": "Data destruction through secure deletion techniques",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved use of web service apis for command and control which was previously unreported",
+    "sentence2": "Data encoding using custom algorithms to obfuscate communication",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved exploitation of windows admin shares with valid credentials",
+    "sentence2": "Exploitation of shared webroot in web servers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in automated collection of sensitive documents",
+    "sentence2": "Data from cloud storage extracted using API access",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Account manipulation by adding privileges to compromised accounts",
+    "sentence2": "Data compressed before exfiltration to reduce transfer size",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Phishing emails with malicious attachments targeting organization employees",
+    "sentence2": "Forced authentication through fake SMB servers",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Data encoding using custom algorithms to obfuscate communication",
+    "sentence2": "Exploitation of internal spearphishing with malicious links",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in file and directory discovery to locate sensitive information according to incident responders",
+    "sentence2": "Application window discovery to identify running applications",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified fallback channels when primary communication is disrupted indicating sophisticated actors",
+    "sentence2": "Use of web service APIs for command and control",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Code signing certificates used to sign malicious executables",
+    "sentence2": "Scheduled task manipulation to gain system-level privileges",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs use of signed binary proxy execution through legitimate tools",
+    "sentence2": "Execution via API calls to evade detection mechanisms",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Audio capture from compromised meeting room systems",
+    "sentence2": "Use of web service APIs for command and control",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Exploitation of internal spearphishing with malicious links",
+    "sentence2": "Modification of startup folder with malicious executables",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Traffic signaling to start data exfiltration when safe",
+    "sentence2": "Dynamic data exchange protocol exploitation in Office documents",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed kerberoasting to extract service account credentials",
+    "sentence2": "Forced authentication through fake SMB servers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of shared webroot in web servers",
+    "sentence2": "Exploitation of access token manipulation to elevate privileges",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs use of steganography to hide data in images or audio files",
+    "sentence2": "Data transfer through alternative protocols like DNS or ICMP",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified bypass of user account control through known vulnerabilities",
+    "sentence2": "Abuse of sudo privileges through configuration weaknesses",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified collection of data from removable media when connected",
+    "sentence2": "Audio capture from compromised meeting room systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Disabling security tools through registry modifications",
+    "sentence2": "System service discovery to identify potential vulnerabilities",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Phishing emails with malicious attachments targeting organization employees",
+    "sentence2": "The threat actor engaged in phishing emails with malicious attachments targeting organization employees which was previously unreported",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exfiltration over command and control channel to reduce footprint",
+    "sentence2": "Hardware additions like USB devices planted in physical locations",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Data destruction through secure deletion techniques",
+    "sentence2": "Active scanning of internal networks to map infrastructure",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified disabling security tools through registry modifications bypassing standard security measures",
+    "sentence2": "Binary padding to avoid hash-based detection mechanisms",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified scheduled tasks added to maintain access after system reboots during the compromise",
+    "sentence2": "Creation of new services configured to execute at system boot",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests command-line interface usage to run unauthorized commands",
+    "sentence2": "Execution via API calls to evade detection mechanisms",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Network share discovery to locate accessible data repositories",
+    "sentence2": "Exploitation of internal spearphishing with malicious links",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs domain fronting through trusted domains to hide traffic according to incident responders",
+    "sentence2": "Port knocking to hide open command and control channels",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Creation of new services configured to execute at system boot",
+    "sentence2": "Use of signed binary proxy execution through legitimate tools",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Unsecured credential storage exploitation in configuration files",
+    "sentence2": "Abuse of sudo privileges through configuration weaknesses",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified data transfer through alternative protocols like dns or icmp",
+    "sentence2": "Traffic signaling to start data exfiltration when safe",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Unsecured credential storage exploitation in configuration files",
+    "sentence2": "The attack involved unsecured credential storage exploitation in configuration files indicating sophisticated actors",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of shared webroot in web servers",
+    "sentence2": "Brute force attacks against authentication systems",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in application window discovery to identify running applications",
+    "sentence2": "System service discovery to identify potential vulnerabilities",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Extraction of passwords from browser storage locations",
+    "sentence2": "Spear phishing links embedded in tailored emails to specific employees",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Windows Management Instrumentation (WMI) for remote code execution",
+    "sentence2": "Browser bookmark discovery to gather intelligence on interests",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Phishing emails with malicious attachments targeting organization employees",
+    "sentence2": "Exfiltration over physical medium like USB devices",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Email collection from mail servers and client applications",
+    "sentence2": "Analysts observed email collection from mail servers and client applications during the compromise",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data transfer through alternative protocols like DNS or ICMP",
+    "sentence2": "Taint shared content with malicious payloads",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Security logs showed screen capture to record user activities and sensitive information",
+    "sentence2": "Data from local systems gathered using scripts",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Creation of new services configured to execute at system boot",
+    "sentence2": "Exploitation of public-facing applications with known vulnerabilities",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs disk wipe attacks targeting master boot records similar to known APT behaviors",
+    "sentence2": "Resource hijacking for cryptocurrency mining",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests data compressed before exfiltration to reduce transfer size during the compromise",
+    "sentence2": "Data transfer through alternative protocols like DNS or ICMP",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed firmware corruption to render systems inoperable",
+    "sentence2": "Resource hijacking for cryptocurrency mining",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests encrypted data exfiltration using custom encryption schemes",
+    "sentence2": "Data compressed before exfiltration to reduce transfer size",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Input capture through keylogging software",
+    "sentence2": "Credential dumping from memory using Mimikatz-like tools",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs domain fronting through trusted domains to hide traffic according to incident responders",
+    "sentence2": "Multi-stage channels using different protocols for each stage",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed collection of data from removable media when connected bypassing standard security measures",
+    "sentence2": "Data from cloud storage extracted using API access",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified data encryption for ransom using sophisticated ransomware",
+    "sentence2": "Manipulation of network traffic to disrupt operations",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Fallback channels when primary communication is disrupted",
+    "sentence2": "Use of remote file copy to transfer tools between systems",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified network sniffing to capture credentials transmitted in cleartext",
+    "sentence2": "Kerberoasting to extract service account credentials",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved use of alternate data streams to hide data in ntfs file systems indicating sophisticated actors",
+    "sentence2": "Binary padding to avoid hash-based detection mechanisms",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in collection of data from removable media when connected during the compromise",
+    "sentence2": "Automated collection of sensitive documents",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed use of web service apis for command and control to achieve their objectives",
+    "sentence2": "Domain fronting through trusted domains to hide traffic",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed execution via api calls to evade detection mechanisms",
+    "sentence2": "Use of signed binary proxy execution through legitimate tools",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified command-line interface usage to run unauthorized commands",
+    "sentence2": "Execution via API calls to evade detection mechanisms",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Unsecured credential storage exploitation in configuration files",
+    "sentence2": "Dynamic data exchange protocol exploitation in Office documents",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified fallback channels when primary communication is disrupted indicating sophisticated actors",
+    "sentence2": "Port knocking to hide open command and control channels",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified bypass of user account control through known vulnerabilities",
+    "sentence2": "Scheduled task manipulation to gain system-level privileges",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed extraction of passwords from browser storage locations",
+    "sentence2": "Brute force attacks against authentication systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs firmware corruption to render systems inoperable according to incident responders",
+    "sentence2": "Denial of service attacks against critical infrastructure",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed exploitation of windows admin shares with valid credentials",
+    "sentence2": "Exploitation of internal spearphishing with malicious links",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data encoding using custom algorithms to obfuscate communication",
+    "sentence2": "The threat actor engaged in data encoding using custom algorithms to obfuscate communication",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs use of remote file copy to transfer tools between systems",
+    "sentence2": "Use of alternate authentication material like SSH keys",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in supply chain compromise through third-party software providers",
+    "sentence2": "Hardware additions like USB devices planted in physical locations",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed account enumeration to find valid user accounts",
+    "sentence2": "File and directory discovery to locate sensitive information",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests automated collection of sensitive documents which was previously unreported",
+    "sentence2": "Collection of data from removable media when connected",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Supply chain compromise through third-party software providers",
+    "sentence2": "Timestomping of files to hide modification times",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs pass-the-hash attacks using stolen password hashes",
+    "sentence2": "Taint shared content with malicious payloads",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Domain fronting through trusted domains to hide traffic",
+    "sentence2": "Browser extensions added to maintain access through web browsers",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Exploitation of rootkits to hide implants and backdoors",
+    "sentence2": "Network share discovery to locate accessible data repositories",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified data transfer through alternative protocols like dns or icmp",
+    "sentence2": "Encrypted data exfiltration using custom encryption schemes",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of vulnerable kernel drivers for privilege escalation",
+    "sentence2": "Exploitation of rootkits to hide implants and backdoors",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs firmware corruption to render systems inoperable which was previously unreported",
+    "sentence2": "Denial of service attacks against critical infrastructure",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests brute force attacks against authentication systems bypassing standard security measures",
+    "sentence2": "Network sniffing to capture credentials transmitted in cleartext",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed registry run keys modification for automatic execution at startup",
+    "sentence2": "Browser extensions added to maintain access through web browsers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved exploitation of access token manipulation to elevate privileges",
+    "sentence2": "Scheduled task manipulation to gain system-level privileges",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Abuse of sudo privileges through configuration weaknesses",
+    "sentence2": "Network sniffing to capture credentials transmitted in cleartext",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified data from cloud storage extracted using api access",
+    "sentence2": "Input capture through keylogging software",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in active scanning of internal networks to map infrastructure similar to known APT behaviors",
+    "sentence2": "Browser bookmark discovery to gather intelligence on interests",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forced authentication through fake SMB servers",
+    "sentence2": "Forensic analysis identified forced authentication through fake smb servers as part of the attack chain",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exfiltration over command and control channel to reduce footprint",
+    "sentence2": "Brute force attacks against authentication systems",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in data encoding using custom algorithms to obfuscate communication",
+    "sentence2": "Multi-stage channels using different protocols for each stage",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs system service discovery to identify potential vulnerabilities to achieve their objectives",
+    "sentence2": "Browser bookmark discovery to gather intelligence on interests",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed password spraying attacks using common passwords which was previously unreported",
+    "sentence2": "Forced authentication through fake SMB servers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data encoding using custom algorithms to obfuscate communication",
+    "sentence2": "Execution through module load to bypass application controls",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Kerberoasting to extract service account credentials",
+    "sentence2": "Input capture through keylogging software",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved email collection from mail servers and client applications",
+    "sentence2": "Input capture through keylogging software",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved unsecured credential storage exploitation in configuration files indicating sophisticated actors",
+    "sentence2": "Forced authentication through fake SMB servers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in pass-the-hash attacks using stolen password hashes",
+    "sentence2": "Use of remote services like RDP for internal network movement",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data from cloud storage extracted using API access",
+    "sentence2": "Use of web service APIs for command and control",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Firmware corruption to render systems inoperable",
+    "sentence2": "Scheduled task manipulation to gain system-level privileges",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs use of valid accounts obtained through credential stuffing attacks",
+    "sentence2": "Hardware additions like USB devices planted in physical locations",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed spear phishing links embedded in tailored emails to specific employees bypassing standard security measures",
+    "sentence2": "Hardware additions like USB devices planted in physical locations",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Pass-the-hash attacks using stolen password hashes",
+    "sentence2": "Analysts observed pass-the-hash attacks using stolen password hashes according to incident responders",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Manipulation of network traffic to disrupt operations",
+    "sentence2": "Traffic signaling to start data exfiltration when safe",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved scheduled transfer of data during off-hours to avoid detection",
+    "sentence2": "Use of steganography to hide data in images or audio files",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Code signing certificates used to sign malicious executables",
+    "sentence2": "Fallback channels when primary communication is disrupted",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Analysts observed hardware additions like usb devices planted in physical locations indicating sophisticated actors",
+    "sentence2": "Drive-by compromise through browser vulnerabilities",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Supply chain compromise through third-party software providers",
+    "sentence2": "Port knocking techniques to hide open ports from scans",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Disabling security tools through registry modifications",
+    "sentence2": "Exploitation of setuid and setgid bits on executable files",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed audio capture from compromised meeting room systems to achieve their objectives",
+    "sentence2": "Data from local systems gathered using scripts",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Account manipulation by adding privileges to compromised accounts",
+    "sentence2": "DLL search order hijacking to execute with elevated privileges",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Taint shared content with malicious payloads",
+    "sentence2": "Exploitation of public-facing applications with known vulnerabilities",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Network sniffing to capture credentials transmitted in cleartext",
+    "sentence2": "Command-line interface usage to run unauthorized commands",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Bootkit installation to survive operating system reinstallation",
+    "sentence2": "Manipulation of network traffic to disrupt operations",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved scheduled tasks added to maintain access after system reboots indicating sophisticated actors",
+    "sentence2": "Creation of new services configured to execute at system boot",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Defacement of websites to demonstrate compromise",
+    "sentence2": "Exploitation of vulnerable kernel drivers for privilege escalation",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Analysts observed pass-the-hash attacks using stolen password hashes according to incident responders",
+    "sentence2": "Exploitation of Windows Admin Shares with valid credentials",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in modification of startup folder with malicious executables indicating sophisticated actors",
+    "sentence2": "Scheduled tasks added to maintain access after system reboots",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in execution via api calls to evade detection mechanisms similar to known APT behaviors",
+    "sentence2": "Use of signed binary proxy execution through legitimate tools",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified creation of new services configured to execute at system boot similar to known APT behaviors",
+    "sentence2": "Browser extensions added to maintain access through web browsers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "PowerShell scripts executed to run malicious commands",
+    "sentence2": "The malware performs powershell scripts executed to run malicious commands",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed manipulation of network traffic to disrupt operations",
+    "sentence2": "Resource hijacking for cryptocurrency mining",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Scheduled task creation to maintain persistence",
+    "sentence2": "Audio capture from compromised meeting room systems",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in defacement of websites to demonstrate compromise similar to known APT behaviors",
+    "sentence2": "Data encryption for ransom using sophisticated ransomware",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs external remote services exploitation using brute force techniques",
+    "sentence2": "Spear phishing links embedded in tailored emails to specific employees",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Multi-stage channels using different protocols for each stage",
+    "sentence2": "Modification of startup folder with malicious executables",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Modification of startup folder with malicious executables",
+    "sentence2": "Exploitation of shared webroot in web servers",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Use of alternate authentication material like SSH keys",
+    "sentence2": "File and directory discovery to locate sensitive information",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Port knocking to hide open command and control channels",
+    "sentence2": "Binary padding to avoid hash-based detection mechanisms",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Exploitation of shared webroot in web servers",
+    "sentence2": "External remote services exploitation using brute force techniques",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed scheduled transfer of data during off-hours to avoid detection similar to known APT behaviors",
+    "sentence2": "Data compressed before exfiltration to reduce transfer size",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Account enumeration to find valid user accounts",
+    "sentence2": "Input capture through keylogging software",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Creation of new services configured to execute at system boot",
+    "sentence2": "Audio capture from compromised meeting room systems",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Exploitation of access token manipulation to elevate privileges",
+    "sentence2": "External remote services exploitation using brute force techniques",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed application layer protocol use for command channel which was previously unreported",
+    "sentence2": "Multi-stage channels using different protocols for each stage",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data from local systems gathered using scripts",
+    "sentence2": "Disk wipe attacks targeting master boot records",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Exfiltration over physical medium like USB devices",
+    "sentence2": "Spear phishing links embedded in tailored emails to specific employees",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Domain fronting through trusted domains to hide traffic",
+    "sentence2": "Data encryption for ransom using sophisticated ransomware",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Data transfer through alternative protocols like DNS or ICMP",
+    "sentence2": "Brute force attacks against authentication systems",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Security logs showed screen capture to record user activities and sensitive information as part of the attack chain",
+    "sentence2": "Data from local systems gathered using scripts",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in data compressed before exfiltration to reduce transfer size during the compromise",
+    "sentence2": "Data transfer through alternative protocols like DNS or ICMP",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed command-line interface usage to run unauthorized commands",
+    "sentence2": "PowerShell scripts executed to run malicious commands",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in data transfer through alternative protocols like dns or icmp",
+    "sentence2": "Use of steganography to hide data in images or audio files",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed application layer protocol use for command channel as part of the attack chain",
+    "sentence2": "Data encoding using custom algorithms to obfuscate communication",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified system service discovery to identify potential vulnerabilities",
+    "sentence2": "Network share discovery to locate accessible data repositories",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests use of alternate authentication material like ssh keys during the compromise",
+    "sentence2": "Exploitation of shared webroot in web servers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed application layer protocol use for command channel which was previously unreported",
+    "sentence2": "Domain fronting through trusted domains to hide traffic",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Unsecured credential storage exploitation in configuration files",
+    "sentence2": "Execution through module load to bypass application controls",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Exfiltration over physical medium like USB devices",
+    "sentence2": "Use of web service APIs for command and control",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved scheduled transfer of data during off-hours to avoid detection",
+    "sentence2": "Exfiltration over command and control channel to reduce footprint",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Timestomping of files to hide modification times",
+    "sentence2": "Evidence suggests timestomping of files to hide modification times",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests brute force attacks against authentication systems bypassing standard security measures",
+    "sentence2": "Forced authentication through fake SMB servers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Taint shared content with malicious payloads",
+    "sentence2": "Process injection to execute code in the context of another process",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved modification of startup folder with malicious executables bypassing standard security measures",
+    "sentence2": "BITS jobs created to maintain persistence and evade detection",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed dynamic data exchange protocol exploitation in office documents",
+    "sentence2": "Execution through module load to bypass application controls",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed exploitation of rootkits to hide implants and backdoors which was previously unreported",
+    "sentence2": "Binary padding to avoid hash-based detection mechanisms",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs port knocking techniques to hide open ports from scans indicating sophisticated actors",
+    "sentence2": "Use of alternate data streams to hide data in NTFS file systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "System service discovery to identify potential vulnerabilities",
+    "sentence2": "Forensic analysis identified system service discovery to identify potential vulnerabilities",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Supply chain compromise through third-party software providers",
+    "sentence2": "The threat actor engaged in supply chain compromise through third-party software providers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exfiltration over physical medium like USB devices",
+    "sentence2": "Disabling security tools through registry modifications",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed data encryption for ransom using sophisticated ransomware",
+    "sentence2": "Data destruction through secure deletion techniques",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified data destruction through secure deletion techniques during the compromise",
+    "sentence2": "Defacement of websites to demonstrate compromise",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed unsecured credential storage exploitation in configuration files as part of the attack chain",
+    "sentence2": "Extraction of passwords from browser storage locations",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed use of web service apis for command and control to achieve their objectives",
+    "sentence2": "Traffic signaling to activate dormant implants",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified hardware additions like usb devices planted in physical locations as part of the attack chain",
+    "sentence2": "Exploitation of public-facing applications with known vulnerabilities",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Binary padding to avoid hash-based detection mechanisms",
+    "sentence2": "Traffic signaling to activate dormant implants",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Application layer protocol use for command channel",
+    "sentence2": "Investigation revealed application layer protocol use for command channel which was previously unreported",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Active scanning of internal networks to map infrastructure",
+    "sentence2": "Execution via API calls to evade detection mechanisms",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in dll search order hijacking to execute with elevated privileges",
+    "sentence2": "Abuse of sudo privileges through configuration weaknesses",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Fallback channels when primary communication is disrupted",
+    "sentence2": "The malware performs fallback channels when primary communication is disrupted similar to known APT behaviors",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed indicator removal through log clearing and file deletion which was previously unreported",
+    "sentence2": "Port knocking techniques to hide open ports from scans",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Email collection from mail servers and client applications",
+    "sentence2": "Fallback channels when primary communication is disrupted",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved bits jobs created to maintain persistence and evade detection",
+    "sentence2": "Modification of startup folder with malicious executables",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed file and directory discovery to locate sensitive information during the compromise",
+    "sentence2": "Query of registry to identify installed software and configurations",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in abuse of sudo privileges through configuration weaknesses which was previously unreported",
+    "sentence2": "Process injection to execute code in the context of another process",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs process injection to execute code in the context of another process to achieve their objectives",
+    "sentence2": "Scheduled task manipulation to gain system-level privileges",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved use of web service apis for command and control to achieve their objectives",
+    "sentence2": "Fallback channels when primary communication is disrupted",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Use of alternate authentication material like SSH keys",
+    "sentence2": "Phishing emails with malicious attachments targeting organization employees",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Input capture through keylogging software",
+    "sentence2": "Data transfer through alternative protocols like DNS or ICMP",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed data from cloud storage extracted using api access bypassing standard security measures",
+    "sentence2": "Automated collection of sensitive documents",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Account enumeration to find valid user accounts",
+    "sentence2": "Taint shared content with malicious payloads",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified exploitation of setuid and setgid bits on executable files",
+    "sentence2": "DLL search order hijacking to execute with elevated privileges",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data compressed before exfiltration to reduce transfer size",
+    "sentence2": "System service discovery to identify potential vulnerabilities",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs manipulation of network traffic to disrupt operations according to incident responders",
+    "sentence2": "Data encryption for ransom using sophisticated ransomware",
+    "label": 1.0
+  },
+  {
+    "sentence1": "BITS jobs created to maintain persistence and evade detection",
+    "sentence2": "The attack involved bits jobs created to maintain persistence and evade detection",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Domain fronting through trusted domains to hide traffic",
+    "sentence2": "Forensic analysis identified domain fronting through trusted domains to hide traffic similar to known APT behaviors",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in phishing emails with malicious attachments targeting organization employees which was previously unreported",
+    "sentence2": "Supply chain compromise through third-party software providers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in dll search order hijacking to execute with elevated privileges",
+    "sentence2": "Exploitation of vulnerable kernel drivers for privilege escalation",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Evidence suggests encrypted data exfiltration using custom encryption schemes",
+    "sentence2": "Exfiltration over command and control channel to reduce footprint",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs fallback channels when primary communication is disrupted similar to known APT behaviors",
+    "sentence2": "Port knocking to hide open command and control channels",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Resource hijacking for cryptocurrency mining",
+    "sentence2": "Analysts observed resource hijacking for cryptocurrency mining during the compromise",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in registry run keys modification for automatic execution at startup during the compromise",
+    "sentence2": "Scheduled tasks added to maintain access after system reboots",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Port knocking techniques to hide open ports from scans",
+    "sentence2": "Bypass of user account control through known vulnerabilities",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Analysts observed exploitation of shared webroot in web servers",
+    "sentence2": "Pass-the-hash attacks using stolen password hashes",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs data from local systems gathered using scripts which was previously unreported",
+    "sentence2": "Audio capture from compromised meeting room systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data encryption for ransom using sophisticated ransomware",
+    "sentence2": "Use of alternate data streams to hide data in NTFS file systems",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs use of signed binary proxy execution through legitimate tools",
+    "sentence2": "Scheduled task creation to maintain persistence",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs windows management instrumentation (wmi) for remote code execution",
+    "sentence2": "Command-line interface usage to run unauthorized commands",
+    "label": 1.0
+  },
+  {
+    "sentence1": "BITS jobs created to maintain persistence and evade detection",
+    "sentence2": "Security logs showed bits jobs created to maintain persistence and evade detection",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified data destruction through secure deletion techniques bypassing standard security measures",
+    "sentence2": "Data encryption for ransom using sophisticated ransomware",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Data destruction through secure deletion techniques",
+    "sentence2": "Exploitation of vulnerable kernel drivers for privilege escalation",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Analysts observed browser bookmark discovery to gather intelligence on interests which was previously unreported",
+    "sentence2": "Network share discovery to locate accessible data repositories",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Brute force attacks against authentication systems",
+    "sentence2": "Fallback channels when primary communication is disrupted",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved use of alternate data streams to hide data in ntfs file systems indicating sophisticated actors",
+    "sentence2": "Binary padding to avoid hash-based detection mechanisms",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Phishing emails with malicious attachments targeting organization employees",
+    "sentence2": "Exploitation of setuid and setgid bits on executable files",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved email collection from mail servers and client applications",
+    "sentence2": "Audio capture from compromised meeting room systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of vulnerable kernel drivers for privilege escalation",
+    "sentence2": "Application layer protocol use for command channel",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs firmware corruption to render systems inoperable which was previously unreported",
+    "sentence2": "Manipulation of network traffic to disrupt operations",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in defacement of websites to demonstrate compromise bypassing standard security measures",
+    "sentence2": "Data destruction through secure deletion techniques",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs domain fronting through trusted domains to hide traffic according to incident responders",
+    "sentence2": "Traffic signaling to activate dormant implants",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Scheduled task creation to maintain persistence",
+    "sentence2": "Exploitation of Windows Admin Shares with valid credentials",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved supply chain compromise through third-party software providers similar to known APT behaviors",
+    "sentence2": "External remote services exploitation using brute force techniques",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified collection of data from removable media when connected",
+    "sentence2": "Automated collection of sensitive documents",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed supply chain compromise through third-party software providers during the compromise",
+    "sentence2": "Spear phishing links embedded in tailored emails to specific employees",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed manipulation of network traffic to disrupt operations",
+    "sentence2": "Data destruction through secure deletion techniques",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in application window discovery to identify running applications",
+    "sentence2": "Browser bookmark discovery to gather intelligence on interests",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Audio capture from compromised meeting room systems",
+    "sentence2": "Active scanning of internal networks to map infrastructure",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified account enumeration to find valid user accounts",
+    "sentence2": "Network share discovery to locate accessible data repositories",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs use of remote file copy to transfer tools between systems as part of the attack chain",
+    "sentence2": "Taint shared content with malicious payloads",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed scheduled task creation to maintain persistence",
+    "sentence2": "Dynamic data exchange protocol exploitation in Office documents",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs scheduled task manipulation to gain system-level privileges indicating sophisticated actors",
+    "sentence2": "Exploitation of setuid and setgid bits on executable files",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified disabling security tools through registry modifications",
+    "sentence2": "Exploitation of rootkits to hide implants and backdoors",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of access token manipulation to elevate privileges",
+    "sentence2": "Firmware corruption to render systems inoperable",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Hardware additions like USB devices planted in physical locations",
+    "sentence2": "Password spraying attacks using common passwords",
+    "label": 0.0
+  },
+  {
+    "sentence1": "DLL search order hijacking to execute with elevated privileges",
+    "sentence2": "Data encryption for ransom using sophisticated ransomware",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Input capture through keylogging software",
+    "sentence2": "Denial of service attacks against critical infrastructure",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Fallback channels when primary communication is disrupted",
+    "sentence2": "Forensic analysis identified fallback channels when primary communication is disrupted indicating sophisticated actors",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved email collection from mail servers and client applications",
+    "sentence2": "Screen capture to record user activities and sensitive information",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Traffic signaling to start data exfiltration when safe",
+    "sentence2": "Analysts observed traffic signaling to start data exfiltration when safe similar to known APT behaviors",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs credential dumping from memory using mimikatz-like tools",
+    "sentence2": "Unsecured credential storage exploitation in configuration files",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs kerberoasting to extract service account credentials bypassing standard security measures",
+    "sentence2": "Brute force attacks against authentication systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Investigation revealed exfiltration over command and control channel to reduce footprint",
+    "sentence2": "Data compressed before exfiltration to reduce transfer size",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Hardware additions like USB devices planted in physical locations",
+    "sentence2": "Email collection from mail servers and client applications",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Domain fronting through trusted domains to hide traffic",
+    "sentence2": "Data from cloud storage extracted using API access",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The malware performs use of remote services like rdp for internal network movement similar to known APT behaviors",
+    "sentence2": "Exploitation of Windows Admin Shares with valid credentials",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Creation of new services configured to execute at system boot",
+    "sentence2": "The malware performs creation of new services configured to execute at system boot to achieve their objectives",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs drive-by compromise through browser vulnerabilities",
+    "sentence2": "Supply chain compromise through third-party software providers",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The threat actor engaged in use of remote services like rdp for internal network movement which was previously unreported",
+    "sentence2": "Use of alternate authentication material like SSH keys",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Scheduled transfer of data during off-hours to avoid detection",
+    "sentence2": "Exploitation of rootkits to hide implants and backdoors",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Denial of service attacks against critical infrastructure",
+    "sentence2": "Traffic signaling to start data exfiltration when safe",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The attack involved application window discovery to identify running applications which was previously unreported",
+    "sentence2": "Account enumeration to find valid user accounts",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs fallback channels when primary communication is disrupted similar to known APT behaviors",
+    "sentence2": "Domain fronting through trusted domains to hide traffic",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Indicator removal through log clearing and file deletion",
+    "sentence2": "The attack involved indicator removal through log clearing and file deletion",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs exploitation of setuid and setgid bits on executable files which was previously unreported",
+    "sentence2": "Exploitation of access token manipulation to elevate privileges",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Network sniffing to capture credentials transmitted in cleartext",
+    "sentence2": "Exfiltration over command and control channel to reduce footprint",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Investigation revealed data encryption for ransom using sophisticated ransomware",
+    "sentence2": "Firmware corruption to render systems inoperable",
+    "label": 1.0
+  },
+  {
+    "sentence1": "External remote services exploitation using brute force techniques",
+    "sentence2": "Encrypted data exfiltration using custom encryption schemes",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Analysts observed email collection from mail servers and client applications during the compromise",
+    "sentence2": "Collection of data from removable media when connected",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed resource hijacking for cryptocurrency mining during the compromise",
+    "sentence2": "Data encryption for ransom using sophisticated ransomware",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Execution through module load to bypass application controls",
+    "sentence2": "Credential dumping from memory using Mimikatz-like tools",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Use of alternate authentication material like SSH keys",
+    "sentence2": "Data compressed before exfiltration to reduce transfer size",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Pass-the-hash attacks using stolen password hashes",
+    "sentence2": "Application layer protocol use for command channel",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in bits jobs created to maintain persistence and evade detection",
+    "sentence2": "Creation of new services configured to execute at system boot",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Application layer protocol use for command channel",
+    "sentence2": "Process injection to execute code in the context of another process",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Security logs showed traffic signaling to start data exfiltration when safe during the compromise",
+    "sentence2": "Use of steganography to hide data in images or audio files",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The malware performs audio capture from compromised meeting room systems according to incident responders",
+    "sentence2": "Data from cloud storage extracted using API access",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of setuid and setgid bits on executable files",
+    "sentence2": "Exploitation of shared webroot in web servers",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Evidence suggests data encoding using custom algorithms to obfuscate communication",
+    "sentence2": "Domain fronting through trusted domains to hide traffic",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Security logs showed supply chain compromise through third-party software providers during the compromise",
+    "sentence2": "External remote services exploitation using brute force techniques",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved use of steganography to hide data in images or audio files",
+    "sentence2": "Data transfer through alternative protocols like DNS or ICMP",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved resource hijacking for cryptocurrency mining to achieve their objectives",
+    "sentence2": "Denial of service attacks against critical infrastructure",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Analysts observed exploitation of shared webroot in web servers",
+    "sentence2": "Use of alternate authentication material like SSH keys",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of setuid and setgid bits on executable files",
+    "sentence2": "The malware performs exploitation of setuid and setgid bits on executable files which was previously unreported",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Multi-stage channels using different protocols for each stage",
+    "sentence2": "Collection of data from removable media when connected",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified data destruction through secure deletion techniques during the compromise",
+    "sentence2": "Manipulation of network traffic to disrupt operations",
+    "label": 1.0
+  },
+  {
+    "sentence1": "The attack involved exploitation of vulnerable kernel drivers for privilege escalation",
+    "sentence2": "Scheduled task manipulation to gain system-level privileges",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Binary padding to avoid hash-based detection mechanisms",
+    "sentence2": "Extraction of passwords from browser storage locations",
+    "label": 0.0
+  },
+  {
+    "sentence1": "The threat actor engaged in modification of startup folder with malicious executables indicating sophisticated actors",
+    "sentence2": "Creation of new services configured to execute at system boot",
+    "label": 1.0
+  },
+  {
+    "sentence1": "External remote services exploitation using brute force techniques",
+    "sentence2": "Resource hijacking for cryptocurrency mining",
+    "label": 0.0
+  },
+  {
+    "sentence1": "Forensic analysis identified use of remote file copy to transfer tools between systems bypassing standard security measures",
+    "sentence2": "Use of remote services like RDP for internal network movement",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Forensic analysis identified disabling security tools through registry modifications",
+    "sentence2": "Binary padding to avoid hash-based detection mechanisms",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Use of remote file copy to transfer tools between systems",
+    "sentence2": "The malware performs use of remote file copy to transfer tools between systems",
+    "label": 1.0
+  },
+  {
+    "sentence1": "Exploitation of public-facing applications with known vulnerabilities",
+    "sentence2": "Investigation revealed exploitation of public-facing applications with known vulnerabilities",
+    "label": 1.0
+  }
+]

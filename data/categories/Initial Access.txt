@@ -1,0 +1,32 @@
+Phishing emails with malicious attachments targeting organization employees
+Evidence suggests phishing emails with malicious attachments targeting organization employees indicating sophisticated actors
+Forensic analysis identified phishing emails with malicious attachments targeting organization employees to achieve their objectives
+Evidence suggests phishing emails with malicious attachments targeting organization employees
+Exploitation of public-facing applications with known vulnerabilities
+Forensic analysis identified exploitation of public-facing applications with known vulnerabilities
+Evidence suggests exploitation of public-facing applications with known vulnerabilities
+The malware performs exploitation of public-facing applications with known vulnerabilities
+Use of valid accounts obtained through credential stuffing attacks
+Analysts observed use of valid accounts obtained through credential stuffing attacks
+The malware performs use of valid accounts obtained through credential stuffing attacks
+Investigation revealed use of valid accounts obtained through credential stuffing attacks which was previously unreported
+Supply chain compromise through third-party software providers
+The attack involved supply chain compromise through third-party software providers similar to known APT behaviors
+The malware performs supply chain compromise through third-party software providers to achieve their objectives
+Investigation revealed supply chain compromise through third-party software providers as part of the attack chain
+Spear phishing links embedded in tailored emails to specific employees
+Security logs showed spear phishing links embedded in tailored emails to specific employees
+Forensic analysis identified spear phishing links embedded in tailored emails to specific employees
+The threat actor engaged in spear phishing links embedded in tailored emails to specific employees
+Drive-by compromise through browser vulnerabilities
+Security logs showed drive-by compromise through browser vulnerabilities according to incident responders
+Investigation revealed drive-by compromise through browser vulnerabilities bypassing standard security measures
+Forensic analysis identified drive-by compromise through browser vulnerabilities
+External remote services exploitation using brute force techniques
+The malware performs external remote services exploitation using brute force techniques according to incident responders
+The malware performs external remote services exploitation using brute force techniques to achieve their objectives
+The malware performs external remote services exploitation using brute force techniques as part of the attack chain
+Hardware additions like USB devices planted in physical locations
+The malware performs hardware additions like usb devices planted in physical locations
+The attack involved hardware additions like usb devices planted in physical locations
+Forensic analysis identified hardware additions like usb devices planted in physical locations bypassing standard security measures

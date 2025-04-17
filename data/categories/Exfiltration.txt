@@ -1,0 +1,32 @@
+Data transfer through alternative protocols like DNS or ICMP
+Analysts observed data transfer through alternative protocols like dns or icmp to achieve their objectives
+Analysts observed data transfer through alternative protocols like dns or icmp as part of the attack chain
+Evidence suggests data transfer through alternative protocols like dns or icmp similar to known APT behaviors
+Exfiltration over physical medium like USB devices
+Evidence suggests exfiltration over physical medium like usb devices which was previously unreported
+Forensic analysis identified exfiltration over physical medium like usb devices
+Analysts observed exfiltration over physical medium like usb devices indicating sophisticated actors
+Use of steganography to hide data in images or audio files
+Security logs showed use of steganography to hide data in images or audio files to achieve their objectives
+Forensic analysis identified use of steganography to hide data in images or audio files as part of the attack chain
+Evidence suggests use of steganography to hide data in images or audio files which was previously unreported
+Scheduled transfer of data during off-hours to avoid detection
+Investigation revealed scheduled transfer of data during off-hours to avoid detection similar to known APT behaviors
+Evidence suggests scheduled transfer of data during off-hours to avoid detection
+The attack involved scheduled transfer of data during off-hours to avoid detection during the compromise
+Exfiltration over command and control channel to reduce footprint
+The malware performs exfiltration over command and control channel to reduce footprint which was previously unreported
+Investigation revealed exfiltration over command and control channel to reduce footprint according to incident responders
+The threat actor engaged in exfiltration over command and control channel to reduce footprint
+Data compressed before exfiltration to reduce transfer size
+Investigation revealed data compressed before exfiltration to reduce transfer size
+Security logs showed data compressed before exfiltration to reduce transfer size according to incident responders
+The malware performs data compressed before exfiltration to reduce transfer size as part of the attack chain
+Encrypted data exfiltration using custom encryption schemes
+The threat actor engaged in encrypted data exfiltration using custom encryption schemes during the compromise
+Analysts observed encrypted data exfiltration using custom encryption schemes
+The attack involved encrypted data exfiltration using custom encryption schemes which was previously unreported
+Traffic signaling to start data exfiltration when safe
+Investigation revealed traffic signaling to start data exfiltration when safe as part of the attack chain
+Forensic analysis identified traffic signaling to start data exfiltration when safe
+Investigation revealed traffic signaling to start data exfiltration when safe bypassing standard security measures

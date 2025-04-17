@@ -1,0 +1,10 @@
+APT29 deployed custom tools to systematically extract emails from Microsoft Exchange servers over several months.
+The threat actor employed audio capture malware to record sensitive conversations in meeting rooms.
+LAPSUS$ exfiltrated source code repositories after compromising development environments.
+The attackers used PowerShell scripts to enumerate and copy sensitive files from SharePoint document libraries.
+FIN7 captured screenshots every 30 seconds to monitor user activity and identify valuable information.
+The adversary deployed clipboard monitoring malware to capture copied credentials and other sensitive data.
+APT41 leveraged custom malware to capture screenshots when specific banking applications were opened.
+Threat actors installed keyloggers specifically targeting developers with access to proprietary code.
+The attack group systematically extracted customer databases containing personally identifiable information.
+Maze ransomware operators used automated tools to identify and collect sensitive documents before encryption.

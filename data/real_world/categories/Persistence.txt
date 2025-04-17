@@ -1,0 +1,10 @@
+APT29 modified registry run keys to maintain persistence across system reboots.
+The attackers installed a backdoor by creating a new Windows service configured to start automatically.
+Turla APT group implanted malicious code in the Windows Management Instrumentation (WMI) repository for persistence.
+The Lazarus Group utilized scheduled tasks to execute malware at specific time intervals or system events.
+APT32 achieved persistence by installing malicious browser extensions in the Chrome browser used by employees.
+The threat actor created a backdoored version of the corporate VPN client that was distributed to employees.
+Fin7 threat actors added their malware to the Windows startup folder to ensure execution at system boot.
+The adversary installed a bootkit that infected the master boot record, ensuring persistence across OS reinstalls.
+Chinese state-sponsored actors created LSASS driver backdoors to maintain access to compromised systems.
+The attackers leveraged Office application startup folders to execute malicious code whenever Office applications started.
